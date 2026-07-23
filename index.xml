@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Loop &amp; Retry</title>
+    <link>https://loopandretry.github.io/</link>
+    <description>Recent content on Loop &amp; Retry</description>
+    <image>
+      <title>Loop &amp; Retry</title>
+      <url>https://loopandretry.github.io/images/og-default.png</url>
+      <link>https://loopandretry.github.io/images/og-default.png</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 21 Jul 2026 07:35:00 -0700</lastBuildDate>
+    <atom:link href="https://loopandretry.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>When a pipeline beats an agent: three shapes that don&#39;t need a loop</title>
+      <link>https://loopandretry.github.io/posts/when-a-pipeline-beats-an-agent/</link>
+      <pubDate>Tue, 21 Jul 2026 07:35:00 -0700</pubDate>
+      <guid>https://loopandretry.github.io/posts/when-a-pipeline-beats-an-agent/</guid>
+      <description>&amp;lsquo;When not to build an agent&amp;rsquo; made the case against the loop in the abstract — quadratic cost, serial latency, an untestable failure surface. This is the concrete follow-on: three fixed pipeline shapes (linear chain, router-plus-handlers, fan-out/fan-in) that cover most of what people default to a loop for, why each one is cheaper and more testable, and the one test for when a real loop actually earns its cost.</description>
+    </item>
+    <item>
+      <title>Retry patterns: when you should give up (and why most code doesn&#39;t)</title>
+      <link>https://loopandretry.github.io/posts/retry-patterns-when-to-give-up/</link>
+      <pubDate>Tue, 21 Jul 2026 07:30:00 -0700</pubDate>
+      <guid>https://loopandretry.github.io/posts/retry-patterns-when-to-give-up/</guid>
+      <description>Retry budgets cap HOW MUCH you retry; this is about WHEN to retry at all. The decision isn&amp;rsquo;t uniform: user-facing operations, background jobs, and fleet-wide cascades each have different failure costs, different retry ceilings, and different layers where the decision lives. A cost model for when to fail fast instead.</description>
+    </item>
+    <item>
+      <title>Failure modes in multi-agent teams: how a crew of agents breaks differently</title>
+      <link>https://loopandretry.github.io/posts/multi-agent-failure-modes/</link>
+      <pubDate>Tue, 21 Jul 2026 09:00:00 -0400</pubDate>
+      <guid>https://loopandretry.github.io/posts/multi-agent-failure-modes/</guid>
+      <description>A single agent fails by getting the task wrong. A team of agents fails in ways no single agent can: correlated collapse, diffused responsibility, context fragmentation, and consensus that converges on nothing. The four failure modes that only exist once you have more than one agent — and why adding agents can lower reliability.</description>
+    </item>
+    <item>
+      <title>Prompt caching: what actually gets cached, and when it silently misses</title>
+      <link>https://loopandretry.github.io/posts/prompt-caching-silent-misses/</link>
+      <pubDate>Mon, 20 Jul 2026 21:00:00 -0400</pubDate>
+      <guid>https://loopandretry.github.io/posts/prompt-caching-silent-misses/</guid>
+      <description>Prompt caching can cut your input-token bill by 90% on the reused part of a request — or do nothing at all, with no error to tell you which. It&amp;rsquo;s an exact-prefix match with a short TTL, and small, common mistakes in how agents build requests break it silently. Here&amp;rsquo;s what actually gets cached, the five ways real agents lose the discount without noticing, and how to check whether yours is.</description>
+    </item>
+    <item>
+      <title>Context contamination: why retrying the same prompt makes it worse</title>
+      <link>https://loopandretry.github.io/posts/context-contamination/</link>
+      <pubDate>Sun, 19 Jul 2026 09:00:00 -0400</pubDate>
+      <guid>https://loopandretry.github.io/posts/context-contamination/</guid>
+      <description>The default retry pattern — catch the failure, append &amp;rsquo;that didn&amp;rsquo;t work, try again,&amp;rsquo; resend the same messages — doesn&amp;rsquo;t give the model a clean second attempt. It gives the model a context window containing its own wrong answer, which is exactly the thing most likely to make the second attempt rhyme with the first. Why retries poison the window, how to tell a poisoning retry from a safe one, and a scrub step that keeps the constraints without keeping the wrong path.</description>
+    </item>
+    <item>
+      <title>Context window sizing for fine-tuning: how long should your training examples be?</title>
+      <link>https://loopandretry.github.io/posts/context-sizing-for-fine-tuning/</link>
+      <pubDate>Sat, 18 Jul 2026 09:00:00 -0400</pubDate>
+      <guid>https://loopandretry.github.io/posts/context-sizing-for-fine-tuning/</guid>
+      <description>Fine-tuning example length is a design decision, not a byproduct of your data. Pad too short and you teach a distribution you&amp;rsquo;ll never see at inference; let examples sprawl and you pay quadratic training cost to memorize context you should be retrieving. How to size training sequences to the context you&amp;rsquo;ll actually serve.</description>
+    </item>
+    <item>
+      <title>Your timeout is a bet: pricing the tradeoff before you pick a number</title>
+      <link>https://loopandretry.github.io/posts/timeout-is-a-bet/</link>
+      <pubDate>Sat, 18 Jul 2026 09:00:00 -0400</pubDate>
+      <guid>https://loopandretry.github.io/posts/timeout-is-a-bet/</guid>
+      <description>Every per-step timeout is a number someone typed in without a model behind it — too short and you kill real work in flight, too long and you pay to sit idle waiting on a hang. Both mistakes are failure modes with a price tag. A small cost model finds the number that actually minimizes total cost instead of the one that felt safe.</description>
+    </item>
+    <item>
+      <title>Streaming tool calls without losing your mind</title>
+      <link>https://loopandretry.github.io/posts/streaming-tool-calls-without-losing-your-mind/</link>
+      <pubDate>Thu, 16 Jul 2026 09:00:00 -0400</pubDate>
+      <guid>https://loopandretry.github.io/posts/streaming-tool-calls-without-losing-your-mind/</guid>
+      <description>Streaming a text response is easy: print tokens as they arrive, order doesn&amp;rsquo;t matter to the reader. Streaming a tool call is not, because the payload is JSON, and partial JSON is not valid JSON. The three ways people handle that mismatch, why two of them break in production, and the pattern that lets you show progress without ever executing on a half-formed argument.</description>
+    </item>
+    <item>
+      <title>Retry budgets by language: Python, Go, and JavaScript</title>
+      <link>https://loopandretry.github.io/posts/retry-budgets-by-language/</link>
+      <pubDate>Wed, 15 Jul 2026 09:00:00 -0400</pubDate>
+      <guid>https://loopandretry.github.io/posts/retry-budgets-by-language/</guid>
+      <description>A retry budget is a language-agnostic idea, but the place you enforce it is not. Python&amp;rsquo;s tenacity decorators, Go&amp;rsquo;s context-plus-backoff, and JavaScript&amp;rsquo;s promise chains each make a different mistake easy and a different guarantee hard. Where the shared budget lives, and the per-language trap that leaks it.</description>
+    </item>
+    <item>
+      <title>Debugging a failed agent run costs more than the run itself</title>
+      <link>https://loopandretry.github.io/posts/debugging-a-failed-run-costs-more/</link>
+      <pubDate>Tue, 14 Jul 2026 13:00:00 -0400</pubDate>
+      <guid>https://loopandretry.github.io/posts/debugging-a-failed-run-costs-more/</guid>
+      <description>The cheap part of a failed agent run is running it again. The expensive part is that you can&amp;rsquo;t — the failure was non-deterministic, so the run that broke is gone, and you pay to summon it back. A cost model shows why reproduction, not repair, dominates your debugging bill, and why always-on tracing is almost always cheaper than the alternative it replaces.</description>
+    </item>
+    <item>
+      <title>Predicting agent failure before you ship it</title>
+      <link>https://loopandretry.github.io/posts/predicting-agent-failure-before-release/</link>
+      <pubDate>Tue, 14 Jul 2026 05:02:00 -0400</pubDate>
+      <guid>https://loopandretry.github.io/posts/predicting-agent-failure-before-release/</guid>
+      <description>A demo proves an agent can succeed once. It says almost nothing about how often it will fail under real load, real input distributions, and real adversarial garbage. The failures that cost you in production are predictable before release — but only if you test the things that actually shift between the demo and the deployment. Four pre-release signals that forecast production failure, and the ones that don&amp;rsquo;t.</description>
+    </item>
+    <item>
+      <title>One bad step, N bad steps: how agent failures cascade</title>
+      <link>https://loopandretry.github.io/posts/how-agent-failures-cascade/</link>
+      <pubDate>Tue, 14 Jul 2026 05:01:00 -0400</pubDate>
+      <guid>https://loopandretry.github.io/posts/how-agent-failures-cascade/</guid>
+      <description>A single agent error rarely stays a single error. The bad output goes into the context, the next step reasons on top of it, and the mistake compounds down the trajectory — one wrong step becoming N wrong steps. This is the cascade, why it&amp;rsquo;s structurally different from a fleet-wide blast radius, and the three interruption points that stop a local mistake from eating the whole run.</description>
+    </item>
+    <item>
+      <title>Your token bill is the cheap part: dimensioning the real cost of an agent</title>
+      <link>https://loopandretry.github.io/posts/cost-beyond-tokens/</link>
+      <pubDate>Tue, 14 Jul 2026 05:00:00 -0400</pubDate>
+      <guid>https://loopandretry.github.io/posts/cost-beyond-tokens/</guid>
+      <description>Everyone budgets the token bill because the provider hands you an invoice for it. But an agent in production spends across five other axes that never show up on that invoice — wall-clock latency, orchestration, tool-call fees, human review, and idle polling — and for a lot of workloads the tokens are the smallest line. A model that sums all six so you can see which one you&amp;rsquo;re actually paying.</description>
+    </item>
+    <item>
+      <title>Cheap first, smart later: model routing that cuts cost without cutting quality</title>
+      <link>https://loopandretry.github.io/posts/cheap-first-smart-later/</link>
+      <pubDate>Mon, 13 Jul 2026 20:30:00 -0400</pubDate>
+      <guid>https://loopandretry.github.io/posts/cheap-first-smart-later/</guid>
+      <description>Most requests to your agent are easy, and you&amp;rsquo;re paying frontier-model prices for all of them anyway. A routing cascade — try the cheap model, escalate on a measurable confidence signal — cuts spend without touching output quality, if you get the escalation trigger right. Here&amp;rsquo;s the pattern, where it breaks, and the arithmetic on when it&amp;rsquo;s worth building.</description>
+    </item>
+    <item>
+      <title>Distributed retry patterns: bounding blast radius across a fleet</title>
+      <link>https://loopandretry.github.io/posts/fleet-retry-patterns/</link>
+      <pubDate>Mon, 13 Jul 2026 18:15:00 -0400</pubDate>
+      <guid>https://loopandretry.github.io/posts/fleet-retry-patterns/</guid>
+      <description>A per-step retry cap bounds a step. It never bounds a run, and it never bounds a fleet — twelve workers each retrying &amp;lsquo;reasonably&amp;rsquo; is how you turn one bad deploy into a bill. The four patterns that actually put a ceiling on what a fleet of agents can spend recovering from a failure: shared retry budgets, circuit breakers, decorrelated backoff, and poison quarantine.</description>
+    </item>
+    <item>
+      <title>Your agent&#39;s failures are silent: measuring failure modes in production</title>
+      <link>https://loopandretry.github.io/posts/measuring-agent-failure-in-production/</link>
+      <pubDate>Mon, 13 Jul 2026 18:10:00 -0400</pubDate>
+      <guid>https://loopandretry.github.io/posts/measuring-agent-failure-in-production/</guid>
+      <description>Most agent failures don&amp;rsquo;t throw. The run returns a result, exit code zero, and the result is wrong — or it burns an hour and quietly gives up. If your monitoring only counts exceptions, you&amp;rsquo;re blind to the failures that actually cost you. A taxonomy of agent failure modes and the specific instrumentation that catches each one before your users or your bill do.</description>
+    </item>
+    <item>
+      <title>Why a long agent run costs O(N²) tokens — and how to flatten it</title>
+      <link>https://loopandretry.github.io/posts/long-agent-runs-are-quadratic/</link>
+      <pubDate>Mon, 13 Jul 2026 18:05:00 -0400</pubDate>
+      <guid>https://loopandretry.github.io/posts/long-agent-runs-are-quadratic/</guid>
+      <description>A naive agent&amp;rsquo;s token bill doesn&amp;rsquo;t grow with the number of steps — it grows with the square of them, because every step re-reads the whole transcript that every previous step appended to. A small cost model shows the curve, and four structural moves turn the quadratic back into something close to linear without dropping information the agent actually needs.</description>
+    </item>
+    <item>
+      <title>Your agent&#39;s p99 is a different animal</title>
+      <link>https://loopandretry.github.io/posts/your-agents-p99-is-a-different-animal/</link>
+      <pubDate>Mon, 13 Jul 2026 18:00:00 -0400</pubDate>
+      <guid>https://loopandretry.github.io/posts/your-agents-p99-is-a-different-animal/</guid>
+      <description>Average latency is the number you demo and the number nobody experiences. A multi-step agent is a sum of random variables, so its total time is dominated by the tail of each step — and the more steps you add, the more certain it becomes that at least one of them is slow. Here&amp;rsquo;s the model, why the p99 of the whole is worse than the p99 of the parts, and the two levers that actually move it.</description>
+    </item>
+    <item>
+      <title>Compaction is a lossy operation</title>
+      <link>https://loopandretry.github.io/posts/compaction-is-a-lossy-operation/</link>
+      <pubDate>Mon, 13 Jul 2026 16:00:00 -0400</pubDate>
+      <guid>https://loopandretry.github.io/posts/compaction-is-a-lossy-operation/</guid>
+      <description>When the context window fills up, the standard fix is to summarize the old turns and keep going. That summary is a lossy compression step, and the thing it silently drops is usually the one early constraint the agent needs a hundred turns later. Here&amp;rsquo;s why recency-based compaction fails, a simulation of how often the load-bearing fact survives, and the rule that actually protects it.</description>
+    </item>
+    <item>
+      <title>Tool output is untrusted input: prompt injection is a data-flow bug</title>
+      <link>https://loopandretry.github.io/posts/tool-output-is-untrusted-input/</link>
+      <pubDate>Mon, 13 Jul 2026 15:00:00 -0400</pubDate>
+      <guid>https://loopandretry.github.io/posts/tool-output-is-untrusted-input/</guid>
+      <description>Prompt injection isn&amp;rsquo;t a prompting problem, so you can&amp;rsquo;t prompt your way out of it. It&amp;rsquo;s the same class as SQL injection: data from an untrusted source crosses into a control channel and gets executed as instructions. The web page your agent just fetched, the ticket it just read, the email in its inbox — all of it is attacker-controllable input flowing straight into the one component that can&amp;rsquo;t tell data from commands. Here&amp;rsquo;s the data-flow framing, why &amp;lsquo;ignore injected instructions&amp;rsquo; can&amp;rsquo;t work, and the boundary that actually helps.</description>
+    </item>
+  </channel>
+</rss>

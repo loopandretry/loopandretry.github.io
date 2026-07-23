@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Pillars on Loop &amp; Retry</title>
+    <link>https://loopandretry.github.io/pillars/</link>
+    <description>Recent content in Pillars on Loop &amp; Retry</description>
+    <image>
+      <title>Loop &amp; Retry</title>
+      <url>https://loopandretry.github.io/images/og-default.png</url>
+      <link>https://loopandretry.github.io/images/og-default.png</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 21 Jul 2026 07:35:00 -0700</lastBuildDate>
+    <atom:link href="https://loopandretry.github.io/pillars/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Agent-Architectures</title>
+      <link>https://loopandretry.github.io/pillars/agent-architectures/</link>
+      <pubDate>Tue, 21 Jul 2026 07:35:00 -0700</pubDate>
+      <guid>https://loopandretry.github.io/pillars/agent-architectures/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Failure-Modes</title>
+      <link>https://loopandretry.github.io/pillars/failure-modes/</link>
+      <pubDate>Tue, 21 Jul 2026 07:30:00 -0700</pubDate>
+      <guid>https://loopandretry.github.io/pillars/failure-modes/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Context-Engineering</title>
+      <link>https://loopandretry.github.io/pillars/context-engineering/</link>
+      <pubDate>Mon, 20 Jul 2026 21:00:00 -0400</pubDate>
+      <guid>https://loopandretry.github.io/pillars/context-engineering/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cost-Latency</title>
+      <link>https://loopandretry.github.io/pillars/cost-latency/</link>
+      <pubDate>Sat, 18 Jul 2026 09:00:00 -0400</pubDate>
+      <guid>https://loopandretry.github.io/pillars/cost-latency/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tool-Design</title>
+      <link>https://loopandretry.github.io/pillars/tool-design/</link>
+      <pubDate>Thu, 16 Jul 2026 09:00:00 -0400</pubDate>
+      <guid>https://loopandretry.github.io/pillars/tool-design/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Evals-Testing</title>
+      <link>https://loopandretry.github.io/pillars/evals-testing/</link>
+      <pubDate>Wed, 08 Jul 2026 01:30:00 -0400</pubDate>
+      <guid>https://loopandretry.github.io/pillars/evals-testing/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Idempotency on Loop &amp; Retry</title>
+    <link>https://loopandretry.github.io/tags/idempotency/</link>
+    <description>Recent content in Idempotency on Loop &amp; Retry</description>
+    <image>
+      <title>Loop &amp; Retry</title>
+      <url>https://loopandretry.github.io/images/og-default.png</url>
+      <link>https://loopandretry.github.io/images/og-default.png</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 13 Jul 2026 09:00:00 -0400</lastBuildDate>
+    <atom:link href="https://loopandretry.github.io/tags/idempotency/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Your retry just sent the email twice: idempotency keys for agents</title>
+      <link>https://loopandretry.github.io/posts/idempotency-keys-for-agents/</link>
+      <pubDate>Mon, 13 Jul 2026 09:00:00 -0400</pubDate>
+      <guid>https://loopandretry.github.io/posts/idempotency-keys-for-agents/</guid>
+      <description>Retrying a read is free. Retrying a write can charge a card twice, send two emails, or book two rooms — and the model has no idea it happened. Retry safety is a property you build into the tool, not a flag you set on the loop. Here&amp;rsquo;s why at-least-once delivery is the default you&amp;rsquo;re actually running, how to derive a stable idempotency key from an agent&amp;rsquo;s intent, and a dedup wrapper that makes any write safe to retry.</description>
+    </item>
+  </channel>
+</rss>

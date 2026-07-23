@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Performance on Loop &amp; Retry</title>
+    <link>https://loopandretry.github.io/tags/performance/</link>
+    <description>Recent content in Performance on Loop &amp; Retry</description>
+    <image>
+      <title>Loop &amp; Retry</title>
+      <url>https://loopandretry.github.io/images/og-default.png</url>
+      <link>https://loopandretry.github.io/images/og-default.png</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 13 Jul 2026 18:00:00 -0400</lastBuildDate>
+    <atom:link href="https://loopandretry.github.io/tags/performance/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Your agent&#39;s p99 is a different animal</title>
+      <link>https://loopandretry.github.io/posts/your-agents-p99-is-a-different-animal/</link>
+      <pubDate>Mon, 13 Jul 2026 18:00:00 -0400</pubDate>
+      <guid>https://loopandretry.github.io/posts/your-agents-p99-is-a-different-animal/</guid>
+      <description>Average latency is the number you demo and the number nobody experiences. A multi-step agent is a sum of random variables, so its total time is dominated by the tail of each step — and the more steps you add, the more certain it becomes that at least one of them is slow. Here&amp;rsquo;s the model, why the p99 of the whole is worse than the p99 of the parts, and the two levers that actually move it.</description>
+    </item>
+  </channel>
+</rss>

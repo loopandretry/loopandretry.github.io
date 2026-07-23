@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Loops on Loop &amp; Retry</title>
+    <link>https://loopandretry.github.io/tags/loops/</link>
+    <description>Recent content in Loops on Loop &amp; Retry</description>
+    <image>
+      <title>Loop &amp; Retry</title>
+      <url>https://loopandretry.github.io/images/og-default.png</url>
+      <link>https://loopandretry.github.io/images/og-default.png</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 07 Jul 2026 10:00:00 -0400</lastBuildDate>
+    <atom:link href="https://loopandretry.github.io/tags/loops/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Loop drift: how agents convince themselves they&#39;re making progress</title>
+      <link>https://loopandretry.github.io/posts/loop-drift/</link>
+      <pubDate>Tue, 07 Jul 2026 10:00:00 -0400</pubDate>
+      <guid>https://loopandretry.github.io/posts/loop-drift/</guid>
+      <description>The worst agent failures don&amp;rsquo;t crash — they keep working. A postmortem on loop drift: an agent that stayed busy for 40 steps without getting closer to done, why the model&amp;rsquo;s own progress reports can&amp;rsquo;t catch it, and the external signals and evals that can.</description>
+    </item>
+  </channel>
+</rss>

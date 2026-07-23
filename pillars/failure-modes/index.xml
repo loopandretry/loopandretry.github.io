@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Failure-Modes on Loop &amp; Retry</title>
+    <link>https://loopandretry.github.io/pillars/failure-modes/</link>
+    <description>Recent content in Failure-Modes on Loop &amp; Retry</description>
+    <image>
+      <title>Loop &amp; Retry</title>
+      <url>https://loopandretry.github.io/images/og-default.png</url>
+      <link>https://loopandretry.github.io/images/og-default.png</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 21 Jul 2026 07:30:00 -0700</lastBuildDate>
+    <atom:link href="https://loopandretry.github.io/pillars/failure-modes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Retry patterns: when you should give up (and why most code doesn&#39;t)</title>
+      <link>https://loopandretry.github.io/posts/retry-patterns-when-to-give-up/</link>
+      <pubDate>Tue, 21 Jul 2026 07:30:00 -0700</pubDate>
+      <guid>https://loopandretry.github.io/posts/retry-patterns-when-to-give-up/</guid>
+      <description>Retry budgets cap HOW MUCH you retry; this is about WHEN to retry at all. The decision isn&amp;rsquo;t uniform: user-facing operations, background jobs, and fleet-wide cascades each have different failure costs, different retry ceilings, and different layers where the decision lives. A cost model for when to fail fast instead.</description>
+    </item>
+    <item>
+      <title>Failure modes in multi-agent teams: how a crew of agents breaks differently</title>
+      <link>https://loopandretry.github.io/posts/multi-agent-failure-modes/</link>
+      <pubDate>Tue, 21 Jul 2026 09:00:00 -0400</pubDate>
+      <guid>https://loopandretry.github.io/posts/multi-agent-failure-modes/</guid>
+      <description>A single agent fails by getting the task wrong. A team of agents fails in ways no single agent can: correlated collapse, diffused responsibility, context fragmentation, and consensus that converges on nothing. The four failure modes that only exist once you have more than one agent — and why adding agents can lower reliability.</description>
+    </item>
+    <item>
+      <title>Retry budgets by language: Python, Go, and JavaScript</title>
+      <link>https://loopandretry.github.io/posts/retry-budgets-by-language/</link>
+      <pubDate>Wed, 15 Jul 2026 09:00:00 -0400</pubDate>
+      <guid>https://loopandretry.github.io/posts/retry-budgets-by-language/</guid>
+      <description>A retry budget is a language-agnostic idea, but the place you enforce it is not. Python&amp;rsquo;s tenacity decorators, Go&amp;rsquo;s context-plus-backoff, and JavaScript&amp;rsquo;s promise chains each make a different mistake easy and a different guarantee hard. Where the shared budget lives, and the per-language trap that leaks it.</description>
+    </item>
+    <item>
+      <title>Predicting agent failure before you ship it</title>
+      <link>https://loopandretry.github.io/posts/predicting-agent-failure-before-release/</link>
+      <pubDate>Tue, 14 Jul 2026 05:02:00 -0400</pubDate>
+      <guid>https://loopandretry.github.io/posts/predicting-agent-failure-before-release/</guid>
+      <description>A demo proves an agent can succeed once. It says almost nothing about how often it will fail under real load, real input distributions, and real adversarial garbage. The failures that cost you in production are predictable before release — but only if you test the things that actually shift between the demo and the deployment. Four pre-release signals that forecast production failure, and the ones that don&amp;rsquo;t.</description>
+    </item>
+    <item>
+      <title>One bad step, N bad steps: how agent failures cascade</title>
+      <link>https://loopandretry.github.io/posts/how-agent-failures-cascade/</link>
+      <pubDate>Tue, 14 Jul 2026 05:01:00 -0400</pubDate>
+      <guid>https://loopandretry.github.io/posts/how-agent-failures-cascade/</guid>
+      <description>A single agent error rarely stays a single error. The bad output goes into the context, the next step reasons on top of it, and the mistake compounds down the trajectory — one wrong step becoming N wrong steps. This is the cascade, why it&amp;rsquo;s structurally different from a fleet-wide blast radius, and the three interruption points that stop a local mistake from eating the whole run.</description>
+    </item>
+    <item>
+      <title>Distributed retry patterns: bounding blast radius across a fleet</title>
+      <link>https://loopandretry.github.io/posts/fleet-retry-patterns/</link>
+      <pubDate>Mon, 13 Jul 2026 18:15:00 -0400</pubDate>
+      <guid>https://loopandretry.github.io/posts/fleet-retry-patterns/</guid>
+      <description>A per-step retry cap bounds a step. It never bounds a run, and it never bounds a fleet — twelve workers each retrying &amp;lsquo;reasonably&amp;rsquo; is how you turn one bad deploy into a bill. The four patterns that actually put a ceiling on what a fleet of agents can spend recovering from a failure: shared retry budgets, circuit breakers, decorrelated backoff, and poison quarantine.</description>
+    </item>
+    <item>
+      <title>Your agent&#39;s failures are silent: measuring failure modes in production</title>
+      <link>https://loopandretry.github.io/posts/measuring-agent-failure-in-production/</link>
+      <pubDate>Mon, 13 Jul 2026 18:10:00 -0400</pubDate>
+      <guid>https://loopandretry.github.io/posts/measuring-agent-failure-in-production/</guid>
+      <description>Most agent failures don&amp;rsquo;t throw. The run returns a result, exit code zero, and the result is wrong — or it burns an hour and quietly gives up. If your monitoring only counts exceptions, you&amp;rsquo;re blind to the failures that actually cost you. A taxonomy of agent failure modes and the specific instrumentation that catches each one before your users or your bill do.</description>
+    </item>
+    <item>
+      <title>Postmortem: the agent that spent $200 retrying a 400</title>
+      <link>https://loopandretry.github.io/posts/postmortem-200-dollars-retrying-a-400/</link>
+      <pubDate>Sun, 12 Jul 2026 09:00:00 -0400</pubDate>
+      <guid>https://loopandretry.github.io/posts/postmortem-200-dollars-retrying-a-400/</guid>
+      <description>An agent burned ~$200 overnight retrying an HTTP 400 — a request that was defined to fail. No component was buggy; each layer retried &amp;ldquo;reasonably.&amp;rdquo; The teardown: why retryability is a property of the error and not a default, how three nested retry caps multiply into 75 doomed attempts per item, and why per-step caps never bound a bill. With the two-line fix and a circuit breaker.</description>
+    </item>
+    <item>
+      <title>Loop drift: how agents convince themselves they&#39;re making progress</title>
+      <link>https://loopandretry.github.io/posts/loop-drift/</link>
+      <pubDate>Tue, 07 Jul 2026 10:00:00 -0400</pubDate>
+      <guid>https://loopandretry.github.io/posts/loop-drift/</guid>
+      <description>The worst agent failures don&amp;rsquo;t crash — they keep working. A postmortem on loop drift: an agent that stayed busy for 40 steps without getting closer to done, why the model&amp;rsquo;s own progress reports can&amp;rsquo;t catch it, and the external signals and evals that can.</description>
+    </item>
+  </channel>
+</rss>

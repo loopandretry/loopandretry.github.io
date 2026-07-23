@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Long-Horizon on Loop &amp; Retry</title>
+    <link>https://loopandretry.github.io/tags/long-horizon/</link>
+    <description>Recent content in Long-Horizon on Loop &amp; Retry</description>
+    <image>
+      <title>Loop &amp; Retry</title>
+      <url>https://loopandretry.github.io/images/og-default.png</url>
+      <link>https://loopandretry.github.io/images/og-default.png</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 13 Jul 2026 18:05:00 -0400</lastBuildDate>
+    <atom:link href="https://loopandretry.github.io/tags/long-horizon/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why a long agent run costs O(N²) tokens — and how to flatten it</title>
+      <link>https://loopandretry.github.io/posts/long-agent-runs-are-quadratic/</link>
+      <pubDate>Mon, 13 Jul 2026 18:05:00 -0400</pubDate>
+      <guid>https://loopandretry.github.io/posts/long-agent-runs-are-quadratic/</guid>
+      <description>A naive agent&amp;rsquo;s token bill doesn&amp;rsquo;t grow with the number of steps — it grows with the square of them, because every step re-reads the whole transcript that every previous step appended to. A small cost model shows the curve, and four structural moves turn the quadratic back into something close to linear without dropping information the agent actually needs.</description>
+    </item>
+  </channel>
+</rss>

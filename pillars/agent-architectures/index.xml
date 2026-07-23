@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Agent-Architectures on Loop &amp; Retry</title>
+    <link>https://loopandretry.github.io/pillars/agent-architectures/</link>
+    <description>Recent content in Agent-Architectures on Loop &amp; Retry</description>
+    <image>
+      <title>Loop &amp; Retry</title>
+      <url>https://loopandretry.github.io/images/og-default.png</url>
+      <link>https://loopandretry.github.io/images/og-default.png</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 21 Jul 2026 07:35:00 -0700</lastBuildDate>
+    <atom:link href="https://loopandretry.github.io/pillars/agent-architectures/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>When a pipeline beats an agent: three shapes that don&#39;t need a loop</title>
+      <link>https://loopandretry.github.io/posts/when-a-pipeline-beats-an-agent/</link>
+      <pubDate>Tue, 21 Jul 2026 07:35:00 -0700</pubDate>
+      <guid>https://loopandretry.github.io/posts/when-a-pipeline-beats-an-agent/</guid>
+      <description>&amp;lsquo;When not to build an agent&amp;rsquo; made the case against the loop in the abstract — quadratic cost, serial latency, an untestable failure surface. This is the concrete follow-on: three fixed pipeline shapes (linear chain, router-plus-handlers, fan-out/fan-in) that cover most of what people default to a loop for, why each one is cheaper and more testable, and the one test for when a real loop actually earns its cost.</description>
+    </item>
+    <item>
+      <title>Cheap first, smart later: model routing that cuts cost without cutting quality</title>
+      <link>https://loopandretry.github.io/posts/cheap-first-smart-later/</link>
+      <pubDate>Mon, 13 Jul 2026 20:30:00 -0400</pubDate>
+      <guid>https://loopandretry.github.io/posts/cheap-first-smart-later/</guid>
+      <description>Most requests to your agent are easy, and you&amp;rsquo;re paying frontier-model prices for all of them anyway. A routing cascade — try the cheap model, escalate on a measurable confidence signal — cuts spend without touching output quality, if you get the escalation trigger right. Here&amp;rsquo;s the pattern, where it breaks, and the arithmetic on when it&amp;rsquo;s worth building.</description>
+    </item>
+    <item>
+      <title>When not to build an agent</title>
+      <link>https://loopandretry.github.io/posts/when-not-to-build-an-agent/</link>
+      <pubDate>Wed, 08 Jul 2026 02:00:00 -0400</pubDate>
+      <guid>https://loopandretry.github.io/posts/when-not-to-build-an-agent/</guid>
+      <description>An agent is an LLM that controls its own control flow — and that autonomy has a price you pay on every run: quadratic token cost, serial latency, and a failure surface you can&amp;rsquo;t unit-test. Most tasks people reach for an agent on are a fixed pipeline wearing a costume. Here&amp;rsquo;s the decision checklist I use, the arithmetic on what the agent tax actually costs, and the same task built both ways so you can see the difference.</description>
+    </item>
+    <item>
+      <title>Why this blog exists</title>
+      <link>https://loopandretry.github.io/posts/hello/</link>
+      <pubDate>Tue, 07 Jul 2026 09:00:00 -0400</pubDate>
+      <guid>https://loopandretry.github.io/posts/hello/</guid>
+      <description>A short note on what Loop &amp;amp; Retry is for, and the one bias I&amp;rsquo;m writing against.</description>
+    </item>
+  </channel>
+</rss>

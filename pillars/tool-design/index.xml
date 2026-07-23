@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tool-Design on Loop &amp; Retry</title>
+    <link>https://loopandretry.github.io/pillars/tool-design/</link>
+    <description>Recent content in Tool-Design on Loop &amp; Retry</description>
+    <image>
+      <title>Loop &amp; Retry</title>
+      <url>https://loopandretry.github.io/images/og-default.png</url>
+      <link>https://loopandretry.github.io/images/og-default.png</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 16 Jul 2026 09:00:00 -0400</lastBuildDate>
+    <atom:link href="https://loopandretry.github.io/pillars/tool-design/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Streaming tool calls without losing your mind</title>
+      <link>https://loopandretry.github.io/posts/streaming-tool-calls-without-losing-your-mind/</link>
+      <pubDate>Thu, 16 Jul 2026 09:00:00 -0400</pubDate>
+      <guid>https://loopandretry.github.io/posts/streaming-tool-calls-without-losing-your-mind/</guid>
+      <description>Streaming a text response is easy: print tokens as they arrive, order doesn&amp;rsquo;t matter to the reader. Streaming a tool call is not, because the payload is JSON, and partial JSON is not valid JSON. The three ways people handle that mismatch, why two of them break in production, and the pattern that lets you show progress without ever executing on a half-formed argument.</description>
+    </item>
+    <item>
+      <title>Tool output is untrusted input: prompt injection is a data-flow bug</title>
+      <link>https://loopandretry.github.io/posts/tool-output-is-untrusted-input/</link>
+      <pubDate>Mon, 13 Jul 2026 15:00:00 -0400</pubDate>
+      <guid>https://loopandretry.github.io/posts/tool-output-is-untrusted-input/</guid>
+      <description>Prompt injection isn&amp;rsquo;t a prompting problem, so you can&amp;rsquo;t prompt your way out of it. It&amp;rsquo;s the same class as SQL injection: data from an untrusted source crosses into a control channel and gets executed as instructions. The web page your agent just fetched, the ticket it just read, the email in its inbox — all of it is attacker-controllable input flowing straight into the one component that can&amp;rsquo;t tell data from commands. Here&amp;rsquo;s the data-flow framing, why &amp;lsquo;ignore injected instructions&amp;rsquo; can&amp;rsquo;t work, and the boundary that actually helps.</description>
+    </item>
+    <item>
+      <title>Your retry just sent the email twice: idempotency keys for agents</title>
+      <link>https://loopandretry.github.io/posts/idempotency-keys-for-agents/</link>
+      <pubDate>Mon, 13 Jul 2026 09:00:00 -0400</pubDate>
+      <guid>https://loopandretry.github.io/posts/idempotency-keys-for-agents/</guid>
+      <description>Retrying a read is free. Retrying a write can charge a card twice, send two emails, or book two rooms — and the model has no idea it happened. Retry safety is a property you build into the tool, not a flag you set on the loop. Here&amp;rsquo;s why at-least-once delivery is the default you&amp;rsquo;re actually running, how to derive a stable idempotency key from an agent&amp;rsquo;s intent, and a dedup wrapper that makes any write safe to retry.</description>
+    </item>
+    <item>
+      <title>Designing tools an LLM won&#39;t misuse</title>
+      <link>https://loopandretry.github.io/posts/designing-tools-an-llm-wont-misuse/</link>
+      <pubDate>Mon, 06 Jul 2026 09:00:00 -0400</pubDate>
+      <guid>https://loopandretry.github.io/posts/designing-tools-an-llm-wont-misuse/</guid>
+      <description>A tool schema is a contract with a caller that guesses. This is a concrete walkthrough of the four properties that separate a tool a model uses correctly from one it fumbles: legible schemas, validating boundaries, recoverable errors, and idempotency — with before-and-after code.</description>
+    </item>
+  </channel>
+</rss>

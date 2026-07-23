@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tags on Loop &amp; Retry</title>
+    <link>https://loopandretry.github.io/tags/</link>
+    <description>Recent content in Tags on Loop &amp; Retry</description>
+    <image>
+      <title>Loop &amp; Retry</title>
+      <url>https://loopandretry.github.io/images/og-default.png</url>
+      <link>https://loopandretry.github.io/images/og-default.png</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 21 Jul 2026 07:35:00 -0700</lastBuildDate>
+    <atom:link href="https://loopandretry.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Agent-Architectures</title>
+      <link>https://loopandretry.github.io/tags/agent-architectures/</link>
+      <pubDate>Tue, 21 Jul 2026 07:35:00 -0700</pubDate>
+      <guid>https://loopandretry.github.io/tags/agent-architectures/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Design</title>
+      <link>https://loopandretry.github.io/tags/design/</link>
+      <pubDate>Tue, 21 Jul 2026 07:35:00 -0700</pubDate>
+      <guid>https://loopandretry.github.io/tags/design/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Reliability</title>
+      <link>https://loopandretry.github.io/tags/reliability/</link>
+      <pubDate>Tue, 21 Jul 2026 07:35:00 -0700</pubDate>
+      <guid>https://loopandretry.github.io/tags/reliability/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Workflows</title>
+      <link>https://loopandretry.github.io/tags/workflows/</link>
+      <pubDate>Tue, 21 Jul 2026 07:35:00 -0700</pubDate>
+      <guid>https://loopandretry.github.io/tags/workflows/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Failure-Modes</title>
+      <link>https://loopandretry.github.io/tags/failure-modes/</link>
+      <pubDate>Tue, 21 Jul 2026 07:30:00 -0700</pubDate>
+      <guid>https://loopandretry.github.io/tags/failure-modes/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Production</title>
+      <link>https://loopandretry.github.io/tags/production/</link>
+      <pubDate>Tue, 21 Jul 2026 07:30:00 -0700</pubDate>
+      <guid>https://loopandretry.github.io/tags/production/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Retries</title>
+      <link>https://loopandretry.github.io/tags/retries/</link>
+      <pubDate>Tue, 21 Jul 2026 07:30:00 -0700</pubDate>
+      <guid>https://loopandretry.github.io/tags/retries/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Multi-Agent</title>
+      <link>https://loopandretry.github.io/tags/multi-agent/</link>
+      <pubDate>Tue, 21 Jul 2026 09:00:00 -0400</pubDate>
+      <guid>https://loopandretry.github.io/tags/multi-agent/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Context-Engineering</title>
+      <link>https://loopandretry.github.io/tags/context-engineering/</link>
+      <pubDate>Mon, 20 Jul 2026 21:00:00 -0400</pubDate>
+      <guid>https://loopandretry.github.io/tags/context-engineering/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cost</title>
+      <link>https://loopandretry.github.io/tags/cost/</link>
+      <pubDate>Mon, 20 Jul 2026 21:00:00 -0400</pubDate>
+      <guid>https://loopandretry.github.io/tags/cost/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Prompt-Caching</title>
+      <link>https://loopandretry.github.io/tags/prompt-caching/</link>
+      <pubDate>Mon, 20 Jul 2026 21:00:00 -0400</pubDate>
+      <guid>https://loopandretry.github.io/tags/prompt-caching/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tokens</title>
+      <link>https://loopandretry.github.io/tags/tokens/</link>
+      <pubDate>Mon, 20 Jul 2026 21:00:00 -0400</pubDate>
+      <guid>https://loopandretry.github.io/tags/tokens/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Fine-Tuning</title>
+      <link>https://loopandretry.github.io/tags/fine-tuning/</link>
+      <pubDate>Sat, 18 Jul 2026 09:00:00 -0400</pubDate>
+      <guid>https://loopandretry.github.io/tags/fine-tuning/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Llm</title>
+      <link>https://loopandretry.github.io/tags/llm/</link>
+      <pubDate>Sat, 18 Jul 2026 09:00:00 -0400</pubDate>
+      <guid>https://loopandretry.github.io/tags/llm/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Operations</title>
+      <link>https://loopandretry.github.io/tags/operations/</link>
+      <pubDate>Sat, 18 Jul 2026 09:00:00 -0400</pubDate>
+      <guid>https://loopandretry.github.io/tags/operations/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Training</title>
+      <link>https://loopandretry.github.io/tags/training/</link>
+      <pubDate>Sat, 18 Jul 2026 09:00:00 -0400</pubDate>
+      <guid>https://loopandretry.github.io/tags/training/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Function-Calling</title>
+      <link>https://loopandretry.github.io/tags/function-calling/</link>
+      <pubDate>Thu, 16 Jul 2026 09:00:00 -0400</pubDate>
+      <guid>https://loopandretry.github.io/tags/function-calling/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Streaming</title>
+      <link>https://loopandretry.github.io/tags/streaming/</link>
+      <pubDate>Thu, 16 Jul 2026 09:00:00 -0400</pubDate>
+      <guid>https://loopandretry.github.io/tags/streaming/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tool-Design</title>
+      <link>https://loopandretry.github.io/tags/tool-design/</link>
+      <pubDate>Thu, 16 Jul 2026 09:00:00 -0400</pubDate>
+      <guid>https://loopandretry.github.io/tags/tool-design/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Go</title>
+      <link>https://loopandretry.github.io/tags/go/</link>
+      <pubDate>Wed, 15 Jul 2026 09:00:00 -0400</pubDate>
+      <guid>https://loopandretry.github.io/tags/go/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

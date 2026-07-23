@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Retries on Loop &amp; Retry</title>
+    <link>https://loopandretry.github.io/tags/retries/</link>
+    <description>Recent content in Retries on Loop &amp; Retry</description>
+    <image>
+      <title>Loop &amp; Retry</title>
+      <url>https://loopandretry.github.io/images/og-default.png</url>
+      <link>https://loopandretry.github.io/images/og-default.png</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 21 Jul 2026 07:30:00 -0700</lastBuildDate>
+    <atom:link href="https://loopandretry.github.io/tags/retries/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Retry patterns: when you should give up (and why most code doesn&#39;t)</title>
+      <link>https://loopandretry.github.io/posts/retry-patterns-when-to-give-up/</link>
+      <pubDate>Tue, 21 Jul 2026 07:30:00 -0700</pubDate>
+      <guid>https://loopandretry.github.io/posts/retry-patterns-when-to-give-up/</guid>
+      <description>Retry budgets cap HOW MUCH you retry; this is about WHEN to retry at all. The decision isn&amp;rsquo;t uniform: user-facing operations, background jobs, and fleet-wide cascades each have different failure costs, different retry ceilings, and different layers where the decision lives. A cost model for when to fail fast instead.</description>
+    </item>
+    <item>
+      <title>Context contamination: why retrying the same prompt makes it worse</title>
+      <link>https://loopandretry.github.io/posts/context-contamination/</link>
+      <pubDate>Sun, 19 Jul 2026 09:00:00 -0400</pubDate>
+      <guid>https://loopandretry.github.io/posts/context-contamination/</guid>
+      <description>The default retry pattern — catch the failure, append &amp;rsquo;that didn&amp;rsquo;t work, try again,&amp;rsquo; resend the same messages — doesn&amp;rsquo;t give the model a clean second attempt. It gives the model a context window containing its own wrong answer, which is exactly the thing most likely to make the second attempt rhyme with the first. Why retries poison the window, how to tell a poisoning retry from a safe one, and a scrub step that keeps the constraints without keeping the wrong path.</description>
+    </item>
+    <item>
+      <title>Retry budgets by language: Python, Go, and JavaScript</title>
+      <link>https://loopandretry.github.io/posts/retry-budgets-by-language/</link>
+      <pubDate>Wed, 15 Jul 2026 09:00:00 -0400</pubDate>
+      <guid>https://loopandretry.github.io/posts/retry-budgets-by-language/</guid>
+      <description>A retry budget is a language-agnostic idea, but the place you enforce it is not. Python&amp;rsquo;s tenacity decorators, Go&amp;rsquo;s context-plus-backoff, and JavaScript&amp;rsquo;s promise chains each make a different mistake easy and a different guarantee hard. Where the shared budget lives, and the per-language trap that leaks it.</description>
+    </item>
+    <item>
+      <title>Distributed retry patterns: bounding blast radius across a fleet</title>
+      <link>https://loopandretry.github.io/posts/fleet-retry-patterns/</link>
+      <pubDate>Mon, 13 Jul 2026 18:15:00 -0400</pubDate>
+      <guid>https://loopandretry.github.io/posts/fleet-retry-patterns/</guid>
+      <description>A per-step retry cap bounds a step. It never bounds a run, and it never bounds a fleet — twelve workers each retrying &amp;lsquo;reasonably&amp;rsquo; is how you turn one bad deploy into a bill. The four patterns that actually put a ceiling on what a fleet of agents can spend recovering from a failure: shared retry budgets, circuit breakers, decorrelated backoff, and poison quarantine.</description>
+    </item>
+    <item>
+      <title>Your retry just sent the email twice: idempotency keys for agents</title>
+      <link>https://loopandretry.github.io/posts/idempotency-keys-for-agents/</link>
+      <pubDate>Mon, 13 Jul 2026 09:00:00 -0400</pubDate>
+      <guid>https://loopandretry.github.io/posts/idempotency-keys-for-agents/</guid>
+      <description>Retrying a read is free. Retrying a write can charge a card twice, send two emails, or book two rooms — and the model has no idea it happened. Retry safety is a property you build into the tool, not a flag you set on the loop. Here&amp;rsquo;s why at-least-once delivery is the default you&amp;rsquo;re actually running, how to derive a stable idempotency key from an agent&amp;rsquo;s intent, and a dedup wrapper that makes any write safe to retry.</description>
+    </item>
+    <item>
+      <title>Postmortem: the agent that spent $200 retrying a 400</title>
+      <link>https://loopandretry.github.io/posts/postmortem-200-dollars-retrying-a-400/</link>
+      <pubDate>Sun, 12 Jul 2026 09:00:00 -0400</pubDate>
+      <guid>https://loopandretry.github.io/posts/postmortem-200-dollars-retrying-a-400/</guid>
+      <description>An agent burned ~$200 overnight retrying an HTTP 400 — a request that was defined to fail. No component was buggy; each layer retried &amp;ldquo;reasonably.&amp;rdquo; The teardown: why retryability is a property of the error and not a default, how three nested retry caps multiply into 75 doomed attempts per item, and why per-step caps never bound a bill. With the two-line fix and a circuit breaker.</description>
+    </item>
+    <item>
+      <title>Retry budgets: why 20% per-step failure doubles your token bill</title>
+      <link>https://loopandretry.github.io/posts/retry-budgets/</link>
+      <pubDate>Sun, 05 Jul 2026 09:00:00 -0400</pubDate>
+      <guid>https://loopandretry.github.io/posts/retry-budgets/</guid>
+      <description>Retries feel cheap and local. In a multi-step agent they&amp;rsquo;re neither. A small cost model shows why 20% per-step failure can more than double your bill — and how your recovery architecture, not your failure rate, decides the multiplier.</description>
+    </item>
+  </channel>
+</rss>

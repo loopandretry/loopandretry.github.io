@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Context-Engineering on Loop &amp; Retry</title>
+    <link>https://loopandretry.github.io/pillars/context-engineering/</link>
+    <description>Recent content in Context-Engineering on Loop &amp; Retry</description>
+    <image>
+      <title>Loop &amp; Retry</title>
+      <url>https://loopandretry.github.io/images/og-default.png</url>
+      <link>https://loopandretry.github.io/images/og-default.png</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 20 Jul 2026 21:00:00 -0400</lastBuildDate>
+    <atom:link href="https://loopandretry.github.io/pillars/context-engineering/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Prompt caching: what actually gets cached, and when it silently misses</title>
+      <link>https://loopandretry.github.io/posts/prompt-caching-silent-misses/</link>
+      <pubDate>Mon, 20 Jul 2026 21:00:00 -0400</pubDate>
+      <guid>https://loopandretry.github.io/posts/prompt-caching-silent-misses/</guid>
+      <description>Prompt caching can cut your input-token bill by 90% on the reused part of a request — or do nothing at all, with no error to tell you which. It&amp;rsquo;s an exact-prefix match with a short TTL, and small, common mistakes in how agents build requests break it silently. Here&amp;rsquo;s what actually gets cached, the five ways real agents lose the discount without noticing, and how to check whether yours is.</description>
+    </item>
+    <item>
+      <title>Context contamination: why retrying the same prompt makes it worse</title>
+      <link>https://loopandretry.github.io/posts/context-contamination/</link>
+      <pubDate>Sun, 19 Jul 2026 09:00:00 -0400</pubDate>
+      <guid>https://loopandretry.github.io/posts/context-contamination/</guid>
+      <description>The default retry pattern — catch the failure, append &amp;rsquo;that didn&amp;rsquo;t work, try again,&amp;rsquo; resend the same messages — doesn&amp;rsquo;t give the model a clean second attempt. It gives the model a context window containing its own wrong answer, which is exactly the thing most likely to make the second attempt rhyme with the first. Why retries poison the window, how to tell a poisoning retry from a safe one, and a scrub step that keeps the constraints without keeping the wrong path.</description>
+    </item>
+    <item>
+      <title>Context window sizing for fine-tuning: how long should your training examples be?</title>
+      <link>https://loopandretry.github.io/posts/context-sizing-for-fine-tuning/</link>
+      <pubDate>Sat, 18 Jul 2026 09:00:00 -0400</pubDate>
+      <guid>https://loopandretry.github.io/posts/context-sizing-for-fine-tuning/</guid>
+      <description>Fine-tuning example length is a design decision, not a byproduct of your data. Pad too short and you teach a distribution you&amp;rsquo;ll never see at inference; let examples sprawl and you pay quadratic training cost to memorize context you should be retrieving. How to size training sequences to the context you&amp;rsquo;ll actually serve.</description>
+    </item>
+    <item>
+      <title>Compaction is a lossy operation</title>
+      <link>https://loopandretry.github.io/posts/compaction-is-a-lossy-operation/</link>
+      <pubDate>Mon, 13 Jul 2026 16:00:00 -0400</pubDate>
+      <guid>https://loopandretry.github.io/posts/compaction-is-a-lossy-operation/</guid>
+      <description>When the context window fills up, the standard fix is to summarize the old turns and keep going. That summary is a lossy compression step, and the thing it silently drops is usually the one early constraint the agent needs a hundred turns later. Here&amp;rsquo;s why recency-based compaction fails, a simulation of how often the load-bearing fact survives, and the rule that actually protects it.</description>
+    </item>
+    <item>
+      <title>The context window is a cache, not a memory</title>
+      <link>https://loopandretry.github.io/posts/context-window-is-a-cache/</link>
+      <pubDate>Tue, 07 Jul 2026 20:00:00 -0400</pubDate>
+      <guid>https://loopandretry.github.io/posts/context-window-is-a-cache/</guid>
+      <description>Treating the context window as append-only memory is how agents get slow, expensive, and quietly wrong. The fix is to run it like a cache with a budget and an eviction policy: decide what earns its tokens every turn. Here&amp;rsquo;s the cost math, the accuracy failure mode, and a working context manager.</description>
+    </item>
+  </channel>
+</rss>

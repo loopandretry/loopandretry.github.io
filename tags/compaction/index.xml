@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Compaction on Loop &amp; Retry</title>
+    <link>https://loopandretry.github.io/tags/compaction/</link>
+    <description>Recent content in Compaction on Loop &amp; Retry</description>
+    <image>
+      <title>Loop &amp; Retry</title>
+      <url>https://loopandretry.github.io/images/og-default.png</url>
+      <link>https://loopandretry.github.io/images/og-default.png</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 13 Jul 2026 16:00:00 -0400</lastBuildDate>
+    <atom:link href="https://loopandretry.github.io/tags/compaction/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Compaction is a lossy operation</title>
+      <link>https://loopandretry.github.io/posts/compaction-is-a-lossy-operation/</link>
+      <pubDate>Mon, 13 Jul 2026 16:00:00 -0400</pubDate>
+      <guid>https://loopandretry.github.io/posts/compaction-is-a-lossy-operation/</guid>
+      <description>When the context window fills up, the standard fix is to summarize the old turns and keep going. That summary is a lossy compression step, and the thing it silently drops is usually the one early constraint the agent needs a hundred turns later. Here&amp;rsquo;s why recency-based compaction fails, a simulation of how often the load-bearing fact survives, and the rule that actually protects it.</description>
+    </item>
+  </channel>
+</rss>

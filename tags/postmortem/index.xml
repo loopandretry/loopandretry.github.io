@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Postmortem on Loop &amp; Retry</title>
+    <link>https://loopandretry.github.io/tags/postmortem/</link>
+    <description>Recent content in Postmortem on Loop &amp; Retry</description>
+    <image>
+      <title>Loop &amp; Retry</title>
+      <url>https://loopandretry.github.io/images/og-default.png</url>
+      <link>https://loopandretry.github.io/images/og-default.png</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 12 Jul 2026 09:00:00 -0400</lastBuildDate>
+    <atom:link href="https://loopandretry.github.io/tags/postmortem/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Postmortem: the agent that spent $200 retrying a 400</title>
+      <link>https://loopandretry.github.io/posts/postmortem-200-dollars-retrying-a-400/</link>
+      <pubDate>Sun, 12 Jul 2026 09:00:00 -0400</pubDate>
+      <guid>https://loopandretry.github.io/posts/postmortem-200-dollars-retrying-a-400/</guid>
+      <description>An agent burned ~$200 overnight retrying an HTTP 400 — a request that was defined to fail. No component was buggy; each layer retried &amp;ldquo;reasonably.&amp;rdquo; The teardown: why retryability is a property of the error and not a default, how three nested retry caps multiply into 75 doomed attempts per item, and why per-step caps never bound a bill. With the two-line fix and a circuit breaker.</description>
+    </item>
+    <item>
+      <title>Loop drift: how agents convince themselves they&#39;re making progress</title>
+      <link>https://loopandretry.github.io/posts/loop-drift/</link>
+      <pubDate>Tue, 07 Jul 2026 10:00:00 -0400</pubDate>
+      <guid>https://loopandretry.github.io/posts/loop-drift/</guid>
+      <description>The worst agent failures don&amp;rsquo;t crash — they keep working. A postmortem on loop drift: an agent that stayed busy for 40 steps without getting closer to done, why the model&amp;rsquo;s own progress reports can&amp;rsquo;t catch it, and the external signals and evals that can.</description>
+    </item>
+  </channel>
+</rss>
