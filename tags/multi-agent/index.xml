@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Multi-Agent on Loop &amp; Retry</title>
+    <link>https://loopandretry.github.io/tags/multi-agent/</link>
+    <description>Recent content in Multi-Agent on Loop &amp; Retry</description>
+    <image>
+      <title>Loop &amp; Retry</title>
+      <url>https://loopandretry.github.io/images/og-default.png</url>
+      <link>https://loopandretry.github.io/images/og-default.png</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 21 Jul 2026 09:00:00 -0400</lastBuildDate>
+    <atom:link href="https://loopandretry.github.io/tags/multi-agent/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Failure modes in multi-agent teams: how a crew of agents breaks differently</title>
+      <link>https://loopandretry.github.io/posts/multi-agent-failure-modes/</link>
+      <pubDate>Tue, 21 Jul 2026 09:00:00 -0400</pubDate>
+      <guid>https://loopandretry.github.io/posts/multi-agent-failure-modes/</guid>
+      <description>A single agent fails by getting the task wrong. A team of agents fails in ways no single agent can: correlated collapse, diffused responsibility, context fragmentation, and consensus that converges on nothing. The four failure modes that only exist once you have more than one agent — and why adding agents can lower reliability.</description>
+    </item>
+  </channel>
+</rss>

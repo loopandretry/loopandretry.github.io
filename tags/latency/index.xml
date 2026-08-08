@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Latency on Loop &amp; Retry</title>
+    <link>https://loopandretry.github.io/tags/latency/</link>
+    <description>Recent content in Latency on Loop &amp; Retry</description>
+    <image>
+      <title>Loop &amp; Retry</title>
+      <url>https://loopandretry.github.io/images/og-default.png</url>
+      <link>https://loopandretry.github.io/images/og-default.png</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 14 Jul 2026 05:00:00 -0400</lastBuildDate>
+    <atom:link href="https://loopandretry.github.io/tags/latency/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Your token bill is the cheap part: dimensioning the real cost of an agent</title>
+      <link>https://loopandretry.github.io/posts/cost-beyond-tokens/</link>
+      <pubDate>Tue, 14 Jul 2026 05:00:00 -0400</pubDate>
+      <guid>https://loopandretry.github.io/posts/cost-beyond-tokens/</guid>
+      <description>Everyone budgets the token bill because the provider hands you an invoice for it. But an agent in production spends across five other axes that never show up on that invoice — wall-clock latency, orchestration, tool-call fees, human review, and idle polling — and for a lot of workloads the tokens are the smallest line. A model that sums all six so you can see which one you&amp;rsquo;re actually paying.</description>
+    </item>
+    <item>
+      <title>Cheap first, smart later: model routing that cuts cost without cutting quality</title>
+      <link>https://loopandretry.github.io/posts/cheap-first-smart-later/</link>
+      <pubDate>Mon, 13 Jul 2026 20:30:00 -0400</pubDate>
+      <guid>https://loopandretry.github.io/posts/cheap-first-smart-later/</guid>
+      <description>Most requests to your agent are easy, and you&amp;rsquo;re paying frontier-model prices for all of them anyway. A routing cascade — try the cheap model, escalate on a measurable confidence signal — cuts spend without touching output quality, if you get the escalation trigger right. Here&amp;rsquo;s the pattern, where it breaks, and the arithmetic on when it&amp;rsquo;s worth building.</description>
+    </item>
+    <item>
+      <title>Your agent&#39;s p99 is a different animal</title>
+      <link>https://loopandretry.github.io/posts/your-agents-p99-is-a-different-animal/</link>
+      <pubDate>Mon, 13 Jul 2026 18:00:00 -0400</pubDate>
+      <guid>https://loopandretry.github.io/posts/your-agents-p99-is-a-different-animal/</guid>
+      <description>Average latency is the number you demo and the number nobody experiences. A multi-step agent is a sum of random variables, so its total time is dominated by the tail of each step — and the more steps you add, the more certain it becomes that at least one of them is slow. Here&amp;rsquo;s the model, why the p99 of the whole is worse than the p99 of the parts, and the two levers that actually move it.</description>
+    </item>
+    <item>
+      <title>When not to build an agent</title>
+      <link>https://loopandretry.github.io/posts/when-not-to-build-an-agent/</link>
+      <pubDate>Wed, 08 Jul 2026 02:00:00 -0400</pubDate>
+      <guid>https://loopandretry.github.io/posts/when-not-to-build-an-agent/</guid>
+      <description>An agent is an LLM that controls its own control flow — and that autonomy has a price you pay on every run: quadratic token cost, serial latency, and a failure surface you can&amp;rsquo;t unit-test. Most tasks people reach for an agent on are a fixed pipeline wearing a costume. Here&amp;rsquo;s the decision checklist I use, the arithmetic on what the agent tax actually costs, and the same task built both ways so you can see the difference.</description>
+    </item>
+  </channel>
+</rss>
