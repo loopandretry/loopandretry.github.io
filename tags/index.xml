@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tags on Loop &amp; Retry</title>
+    <link>https://loopandretry.github.io/tags/</link>
+    <description>Recent content in Tags on Loop &amp; Retry</description>
+    <image>
+      <title>Loop &amp; Retry</title>
+      <url>https://loopandretry.github.io/images/og-default.png</url>
+      <link>https://loopandretry.github.io/images/og-default.png</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 21 Aug 2026 09:00:00 -0700</lastBuildDate>
+    <atom:link href="https://loopandretry.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cost</title>
+      <link>https://loopandretry.github.io/tags/cost/</link>
+      <pubDate>Fri, 21 Aug 2026 09:00:00 -0700</pubDate>
+      <guid>https://loopandretry.github.io/tags/cost/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Distributed-Systems</title>
+      <link>https://loopandretry.github.io/tags/distributed-systems/</link>
+      <pubDate>Fri, 21 Aug 2026 09:00:00 -0700</pubDate>
+      <guid>https://loopandretry.github.io/tags/distributed-systems/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Failure-Modes</title>
+      <link>https://loopandretry.github.io/tags/failure-modes/</link>
+      <pubDate>Fri, 21 Aug 2026 09:00:00 -0700</pubDate>
+      <guid>https://loopandretry.github.io/tags/failure-modes/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Partial-Success</title>
+      <link>https://loopandretry.github.io/tags/partial-success/</link>
+      <pubDate>Fri, 21 Aug 2026 09:00:00 -0700</pubDate>
+      <guid>https://loopandretry.github.io/tags/partial-success/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Recovery</title>
+      <link>https://loopandretry.github.io/tags/recovery/</link>
+      <pubDate>Fri, 21 Aug 2026 09:00:00 -0700</pubDate>
+      <guid>https://loopandretry.github.io/tags/recovery/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Rollback</title>
+      <link>https://loopandretry.github.io/tags/rollback/</link>
+      <pubDate>Fri, 21 Aug 2026 09:00:00 -0700</pubDate>
+      <guid>https://loopandretry.github.io/tags/rollback/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Claude</title>
+      <link>https://loopandretry.github.io/tags/claude/</link>
+      <pubDate>Thu, 20 Aug 2026 22:00:00 -0400</pubDate>
+      <guid>https://loopandretry.github.io/tags/claude/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Prompt-Caching</title>
+      <link>https://loopandretry.github.io/tags/prompt-caching/</link>
+      <pubDate>Thu, 20 Aug 2026 22:00:00 -0400</pubDate>
+      <guid>https://loopandretry.github.io/tags/prompt-caching/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Reliability</title>
+      <link>https://loopandretry.github.io/tags/reliability/</link>
+      <pubDate>Thu, 20 Aug 2026 22:00:00 -0400</pubDate>
+      <guid>https://loopandretry.github.io/tags/reliability/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tokens</title>
+      <link>https://loopandretry.github.io/tags/tokens/</link>
+      <pubDate>Thu, 20 Aug 2026 22:00:00 -0400</pubDate>
+      <guid>https://loopandretry.github.io/tags/tokens/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Detection</title>
+      <link>https://loopandretry.github.io/tags/detection/</link>
+      <pubDate>Mon, 17 Aug 2026 21:00:00 -0700</pubDate>
+      <guid>https://loopandretry.github.io/tags/detection/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Latency</title>
+      <link>https://loopandretry.github.io/tags/latency/</link>
+      <pubDate>Mon, 17 Aug 2026 21:00:00 -0700</pubDate>
+      <guid>https://loopandretry.github.io/tags/latency/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Monitoring</title>
+      <link>https://loopandretry.github.io/tags/monitoring/</link>
+      <pubDate>Mon, 17 Aug 2026 21:00:00 -0700</pubDate>
+      <guid>https://loopandretry.github.io/tags/monitoring/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Observability</title>
+      <link>https://loopandretry.github.io/tags/observability/</link>
+      <pubDate>Mon, 17 Aug 2026 21:00:00 -0700</pubDate>
+      <guid>https://loopandretry.github.io/tags/observability/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Data-Integrity</title>
+      <link>https://loopandretry.github.io/tags/data-integrity/</link>
+      <pubDate>Thu, 13 Aug 2026 20:56:00 +0000</pubDate>
+      <guid>https://loopandretry.github.io/tags/data-integrity/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tool-Output</title>
+      <link>https://loopandretry.github.io/tags/tool-output/</link>
+      <pubDate>Thu, 13 Aug 2026 20:56:00 +0000</pubDate>
+      <guid>https://loopandretry.github.io/tags/tool-output/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Validation</title>
+      <link>https://loopandretry.github.io/tags/validation/</link>
+      <pubDate>Thu, 13 Aug 2026 20:56:00 +0000</pubDate>
+      <guid>https://loopandretry.github.io/tags/validation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Retries</title>
+      <link>https://loopandretry.github.io/tags/retries/</link>
+      <pubDate>Sun, 09 Aug 2026 09:00:00 -0400</pubDate>
+      <guid>https://loopandretry.github.io/tags/retries/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Context-Engineering</title>
+      <link>https://loopandretry.github.io/tags/context-engineering/</link>
+      <pubDate>Wed, 05 Aug 2026 09:00:00 -0400</pubDate>
+      <guid>https://loopandretry.github.io/tags/context-engineering/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Long-Horizon</title>
+      <link>https://loopandretry.github.io/tags/long-horizon/</link>
+      <pubDate>Wed, 05 Aug 2026 09:00:00 -0400</pubDate>
+      <guid>https://loopandretry.github.io/tags/long-horizon/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Distributed-Systems on Loop &amp; Retry</title>
+    <link>https://loopandretry.github.io/tags/distributed-systems/</link>
+    <description>Recent content in Distributed-Systems on Loop &amp; Retry</description>
+    <image>
+      <title>Loop &amp; Retry</title>
+      <url>https://loopandretry.github.io/images/og-default.png</url>
+      <link>https://loopandretry.github.io/images/og-default.png</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 21 Aug 2026 09:00:00 -0700</lastBuildDate>
+    <atom:link href="https://loopandretry.github.io/tags/distributed-systems/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The cost of undoing: partial failures and the cleanup bill</title>
+      <link>https://loopandretry.github.io/posts/the-cost-of-undoing-partial-writes/</link>
+      <pubDate>Fri, 21 Aug 2026 09:00:00 -0700</pubDate>
+      <guid>https://loopandretry.github.io/posts/the-cost-of-undoing-partial-writes/</guid>
+      <description>An agent writes to three systems, then fails on the fourth. The first three writes are now orphaned in a partially-succeeded state. Rolling them back costs more than the original operation — not in tokens, but in human time and coordination overhead. This is the cleanup bill: the hidden cost of partial failures that retry logic doesn&amp;rsquo;t touch.</description>
+    </item>
+    <item>
+      <title>The caller gave up ten minutes ago: orphaned retries in agent fleets</title>
+      <link>https://loopandretry.github.io/posts/orphaned-retries-cancellation/</link>
+      <pubDate>Wed, 29 Jul 2026 09:00:00 -0400</pubDate>
+      <guid>https://loopandretry.github.io/posts/orphaned-retries-cancellation/</guid>
+      <description>A user closes the tab. An upstream request times out. A parent agent gets cancelled by its own budget. None of that reliably reaches the retry loop three calls deep, so the retry keeps going — burning tokens and rate-limit headroom for a result nobody will ever read. Cancellation is the one signal every fleet retry pattern assumes exists and almost none actually propagate.</description>
+    </item>
+    <item>
+      <title>Distributed retry patterns: bounding blast radius across a fleet</title>
+      <link>https://loopandretry.github.io/posts/fleet-retry-patterns/</link>
+      <pubDate>Mon, 13 Jul 2026 18:15:00 -0400</pubDate>
+      <guid>https://loopandretry.github.io/posts/fleet-retry-patterns/</guid>
+      <description>A per-step retry cap bounds a step. It never bounds a run, and it never bounds a fleet — twelve workers each retrying &amp;lsquo;reasonably&amp;rsquo; is how you turn one bad deploy into a bill. The four patterns that actually put a ceiling on what a fleet of agents can spend recovering from a failure: shared retry budgets, circuit breakers, decorrelated backoff, and poison quarantine.</description>
+    </item>
+  </channel>
+</rss>

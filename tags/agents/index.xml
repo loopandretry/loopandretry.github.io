@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Agents on Loop &amp; Retry</title>
+    <link>https://loopandretry.github.io/tags/agents/</link>
+    <description>Recent content in Agents on Loop &amp; Retry</description>
+    <image>
+      <title>Loop &amp; Retry</title>
+      <url>https://loopandretry.github.io/images/og-default.png</url>
+      <link>https://loopandretry.github.io/images/og-default.png</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 13 Jul 2026 15:00:00 -0400</lastBuildDate>
+    <atom:link href="https://loopandretry.github.io/tags/agents/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tool output is untrusted input: prompt injection is a data-flow bug</title>
+      <link>https://loopandretry.github.io/posts/tool-output-is-untrusted-input/</link>
+      <pubDate>Mon, 13 Jul 2026 15:00:00 -0400</pubDate>
+      <guid>https://loopandretry.github.io/posts/tool-output-is-untrusted-input/</guid>
+      <description>Prompt injection isn&amp;rsquo;t a prompting problem, so you can&amp;rsquo;t prompt your way out of it. It&amp;rsquo;s the same class as SQL injection: data from an untrusted source crosses into a control channel and gets executed as instructions. The web page your agent just fetched, the ticket it just read, the email in its inbox — all of it is attacker-controllable input flowing straight into the one component that can&amp;rsquo;t tell data from commands. Here&amp;rsquo;s the data-flow framing, why &amp;lsquo;ignore injected instructions&amp;rsquo; can&amp;rsquo;t work, and the boundary that actually helps.</description>
+    </item>
+  </channel>
+</rss>

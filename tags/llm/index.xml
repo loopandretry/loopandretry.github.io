@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Llm on Loop &amp; Retry</title>
+    <link>https://loopandretry.github.io/tags/llm/</link>
+    <description>Recent content in Llm on Loop &amp; Retry</description>
+    <image>
+      <title>Loop &amp; Retry</title>
+      <url>https://loopandretry.github.io/images/og-default.png</url>
+      <link>https://loopandretry.github.io/images/og-default.png</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 18 Jul 2026 09:00:00 -0400</lastBuildDate>
+    <atom:link href="https://loopandretry.github.io/tags/llm/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Context window sizing for fine-tuning: how long should your training examples be?</title>
+      <link>https://loopandretry.github.io/posts/context-sizing-for-fine-tuning/</link>
+      <pubDate>Sat, 18 Jul 2026 09:00:00 -0400</pubDate>
+      <guid>https://loopandretry.github.io/posts/context-sizing-for-fine-tuning/</guid>
+      <description>Fine-tuning example length is a design decision, not a byproduct of your data. Pad too short and you teach a distribution you&amp;rsquo;ll never see at inference; let examples sprawl and you pay quadratic training cost to memorize context you should be retrieving. How to size training sequences to the context you&amp;rsquo;ll actually serve.</description>
+    </item>
+  </channel>
+</rss>
