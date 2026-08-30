@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Memory on Loop &amp; Retry</title>
+    <link>https://loopandretry.github.io/tags/memory/</link>
+    <description>Recent content in Memory on Loop &amp; Retry</description>
+    <image>
+      <title>Loop &amp; Retry</title>
+      <url>https://loopandretry.github.io/images/og-default.png</url>
+      <link>https://loopandretry.github.io/images/og-default.png</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 13 Jul 2026 16:00:00 -0400</lastBuildDate>
+    <atom:link href="https://loopandretry.github.io/tags/memory/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Compaction is a lossy operation</title>
+      <link>https://loopandretry.github.io/posts/compaction-is-a-lossy-operation/</link>
+      <pubDate>Mon, 13 Jul 2026 16:00:00 -0400</pubDate>
+      <guid>https://loopandretry.github.io/posts/compaction-is-a-lossy-operation/</guid>
+      <description>When the context window fills up, the standard fix is to summarize the old turns and keep going. That summary is a lossy compression step, and the thing it silently drops is usually the one early constraint the agent needs a hundred turns later. Here&amp;rsquo;s why recency-based compaction fails, a simulation of how often the load-bearing fact survives, and the rule that actually protects it.</description>
+    </item>
+    <item>
+      <title>The context window is a cache, not a memory</title>
+      <link>https://loopandretry.github.io/posts/context-window-is-a-cache/</link>
+      <pubDate>Tue, 07 Jul 2026 20:00:00 -0400</pubDate>
+      <guid>https://loopandretry.github.io/posts/context-window-is-a-cache/</guid>
+      <description>Treating the context window as append-only memory is how agents get slow, expensive, and quietly wrong. The fix is to run it like a cache with a budget and an eviction policy: decide what earns its tokens every turn. Here&amp;rsquo;s the cost math, the accuracy failure mode, and a working context manager.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Partial-Success on Loop &amp; Retry</title>
+    <link>https://loopandretry.github.io/tags/partial-success/</link>
+    <description>Recent content in Partial-Success on Loop &amp; Retry</description>
+    <image>
+      <title>Loop &amp; Retry</title>
+      <url>https://loopandretry.github.io/images/og-default.png</url>
+      <link>https://loopandretry.github.io/images/og-default.png</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 21 Aug 2026 09:00:00 -0700</lastBuildDate>
+    <atom:link href="https://loopandretry.github.io/tags/partial-success/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The cost of undoing: partial failures and the cleanup bill</title>
+      <link>https://loopandretry.github.io/posts/the-cost-of-undoing-partial-writes/</link>
+      <pubDate>Fri, 21 Aug 2026 09:00:00 -0700</pubDate>
+      <guid>https://loopandretry.github.io/posts/the-cost-of-undoing-partial-writes/</guid>
+      <description>An agent writes to three systems, then fails on the fourth. The first three writes are now orphaned in a partially-succeeded state. Rolling them back costs more than the original operation — not in tokens, but in human time and coordination overhead. This is the cleanup bill: the hidden cost of partial failures that retry logic doesn&amp;rsquo;t touch.</description>
+    </item>
+  </channel>
+</rss>

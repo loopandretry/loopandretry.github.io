@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Go on Loop &amp; Retry</title>
+    <link>https://loopandretry.github.io/tags/go/</link>
+    <description>Recent content in Go on Loop &amp; Retry</description>
+    <image>
+      <title>Loop &amp; Retry</title>
+      <url>https://loopandretry.github.io/images/og-default.png</url>
+      <link>https://loopandretry.github.io/images/og-default.png</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 15 Jul 2026 09:00:00 -0400</lastBuildDate>
+    <atom:link href="https://loopandretry.github.io/tags/go/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Retry budgets by language: Python, Go, and JavaScript</title>
+      <link>https://loopandretry.github.io/posts/retry-budgets-by-language/</link>
+      <pubDate>Wed, 15 Jul 2026 09:00:00 -0400</pubDate>
+      <guid>https://loopandretry.github.io/posts/retry-budgets-by-language/</guid>
+      <description>A retry budget is a language-agnostic idea, but the place you enforce it is not. Python&amp;rsquo;s tenacity decorators, Go&amp;rsquo;s context-plus-backoff, and JavaScript&amp;rsquo;s promise chains each make a different mistake easy and a different guarantee hard. Where the shared budget lives, and the per-language trap that leaks it.</description>
+    </item>
+  </channel>
+</rss>

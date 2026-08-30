@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Reliability on Loop &amp; Retry</title>
+    <link>https://loopandretry.github.io/pillars/reliability/</link>
+    <description>Recent content in Reliability on Loop &amp; Retry</description>
+    <image>
+      <title>Loop &amp; Retry</title>
+      <url>https://loopandretry.github.io/images/og-default.png</url>
+      <link>https://loopandretry.github.io/images/og-default.png</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 28 Aug 2026 12:00:00 -0400</lastBuildDate>
+    <atom:link href="https://loopandretry.github.io/pillars/reliability/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>What Idempotent Actually Means: Why Retries Are Safe (and When They Aren&#39;t)</title>
+      <link>https://loopandretry.github.io/posts/what-idempotent-means/</link>
+      <pubDate>Fri, 28 Aug 2026 12:00:00 -0400</pubDate>
+      <guid>https://loopandretry.github.io/posts/what-idempotent-means/</guid>
+      <description>Idempotent means doing something twice has the same effect as doing it once. This is essential for APIs, agents, and any system where retries can happen. Here&amp;rsquo;s why, and how to get it right.</description>
+    </item>
+  </channel>
+</rss>

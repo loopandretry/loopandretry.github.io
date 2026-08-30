@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Observability on Loop &amp; Retry</title>
+    <link>https://loopandretry.github.io/tags/observability/</link>
+    <description>Recent content in Observability on Loop &amp; Retry</description>
+    <image>
+      <title>Loop &amp; Retry</title>
+      <url>https://loopandretry.github.io/images/og-default.png</url>
+      <link>https://loopandretry.github.io/images/og-default.png</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 17 Aug 2026 21:00:00 -0700</lastBuildDate>
+    <atom:link href="https://loopandretry.github.io/tags/observability/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The cost of finding a failure after the customer finds it</title>
+      <link>https://loopandretry.github.io/posts/cost-of-late-failure-detection/</link>
+      <pubDate>Mon, 17 Aug 2026 21:00:00 -0700</pubDate>
+      <guid>https://loopandretry.github.io/posts/cost-of-late-failure-detection/</guid>
+      <description>An agent&amp;rsquo;s failure isn&amp;rsquo;t expensive because it failed—it&amp;rsquo;s expensive because you found out about it from a customer complaint instead of an alert. Detection latency multiplies the cleanup cost by an order of magnitude. This post explores the arithmetic of failure-finding, why automated detection is worth the infrastructure cost, and how to choose detection strategies.</description>
+    </item>
+    <item>
+      <title>Measuring retry success: the metric that tells you if retries work</title>
+      <link>https://loopandretry.github.io/posts/retry-observability-measuring-success/</link>
+      <pubDate>Fri, 24 Jul 2026 18:00:00 -0700</pubDate>
+      <guid>https://loopandretry.github.io/posts/retry-observability-measuring-success/</guid>
+      <description>You can&amp;rsquo;t tune a retry strategy you can&amp;rsquo;t see. This is how to instrument retries so you know whether each one succeeds (saving you money) or fails permanently (burning it). Three structured metrics turn a blind spot into actionable signal.</description>
+    </item>
+    <item>
+      <title>Retry context: building observability into retry decisions</title>
+      <link>https://loopandretry.github.io/posts/retry-context-observability/</link>
+      <pubDate>Fri, 24 Jul 2026 06:00:00 -0700</pubDate>
+      <guid>https://loopandretry.github.io/posts/retry-context-observability/</guid>
+      <description>The retry decision (when to give up, how long to wait) only works if you can see inside it. Idempotency keys, retry-attempt correlation, and cost accounting are the foundation. Without them, your retry logic is flying blind — you can&amp;rsquo;t tell if you&amp;rsquo;re fixing a transient failure or burning your budget on a permanent one.</description>
+    </item>
+    <item>
+      <title>Debugging a failed agent run costs more than the run itself</title>
+      <link>https://loopandretry.github.io/posts/debugging-a-failed-run-costs-more/</link>
+      <pubDate>Tue, 14 Jul 2026 13:00:00 -0400</pubDate>
+      <guid>https://loopandretry.github.io/posts/debugging-a-failed-run-costs-more/</guid>
+      <description>The cheap part of a failed agent run is running it again. The expensive part is that you can&amp;rsquo;t — the failure was non-deterministic, so the run that broke is gone, and you pay to summon it back. A cost model shows why reproduction, not repair, dominates your debugging bill, and why always-on tracing is almost always cheaper than the alternative it replaces.</description>
+    </item>
+    <item>
+      <title>Your agent&#39;s failures are silent: measuring failure modes in production</title>
+      <link>https://loopandretry.github.io/posts/measuring-agent-failure-in-production/</link>
+      <pubDate>Mon, 13 Jul 2026 18:10:00 -0400</pubDate>
+      <guid>https://loopandretry.github.io/posts/measuring-agent-failure-in-production/</guid>
+      <description>Most agent failures don&amp;rsquo;t throw. The run returns a result, exit code zero, and the result is wrong — or it burns an hour and quietly gives up. If your monitoring only counts exceptions, you&amp;rsquo;re blind to the failures that actually cost you. A taxonomy of agent failure modes and the specific instrumentation that catches each one before your users or your bill do.</description>
+    </item>
+  </channel>
+</rss>
