@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Validation on Loop &amp; Retry</title>
+    <link>https://loopandretry.github.io/tags/validation/</link>
+    <description>Recent content in Validation on Loop &amp; Retry</description>
+    <image>
+      <title>Loop &amp; Retry</title>
+      <url>https://loopandretry.github.io/images/og-default.png</url>
+      <link>https://loopandretry.github.io/images/og-default.png</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 13 Aug 2026 20:56:00 +0000</lastBuildDate>
+    <atom:link href="https://loopandretry.github.io/tags/validation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The agent that trusted a bad API: silent failures and validation debt</title>
+      <link>https://loopandretry.github.io/posts/tool-output-validation-cost/</link>
+      <pubDate>Thu, 13 Aug 2026 20:56:00 +0000</pubDate>
+      <guid>https://loopandretry.github.io/posts/tool-output-validation-cost/</guid>
+      <description>An agent called an API, got a syntactically valid response, trusted it, and built three wrong decisions on top of it. No error was thrown. Every step succeeded locally. The cascade cost was 15× the original bad call — and all of it was preventable by a two-line validation check. This is validation debt: paying the cost of skipped checks in compounding failure downstream.</description>
+    </item>
+  </channel>
+</rss>

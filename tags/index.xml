@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tags on Loop &amp; Retry</title>
+    <link>https://loopandretry.github.io/tags/</link>
+    <description>Recent content in Tags on Loop &amp; Retry</description>
+    <image>
+      <title>Loop &amp; Retry</title>
+      <url>https://loopandretry.github.io/images/og-default.png</url>
+      <link>https://loopandretry.github.io/images/og-default.png</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 02 Oct 2026 16:00:00 +0000</lastBuildDate>
+    <atom:link href="https://loopandretry.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Agent-Architectures</title>
+      <link>https://loopandretry.github.io/tags/agent-architectures/</link>
+      <pubDate>Fri, 02 Oct 2026 16:00:00 +0000</pubDate>
+      <guid>https://loopandretry.github.io/tags/agent-architectures/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Failure-Modes</title>
+      <link>https://loopandretry.github.io/tags/failure-modes/</link>
+      <pubDate>Fri, 02 Oct 2026 16:00:00 +0000</pubDate>
+      <guid>https://loopandretry.github.io/tags/failure-modes/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Goal-Drift</title>
+      <link>https://loopandretry.github.io/tags/goal-drift/</link>
+      <pubDate>Fri, 02 Oct 2026 16:00:00 +0000</pubDate>
+      <guid>https://loopandretry.github.io/tags/goal-drift/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Multi-Agent</title>
+      <link>https://loopandretry.github.io/tags/multi-agent/</link>
+      <pubDate>Fri, 02 Oct 2026 16:00:00 +0000</pubDate>
+      <guid>https://loopandretry.github.io/tags/multi-agent/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Reliability</title>
+      <link>https://loopandretry.github.io/tags/reliability/</link>
+      <pubDate>Fri, 02 Oct 2026 16:00:00 +0000</pubDate>
+      <guid>https://loopandretry.github.io/tags/reliability/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Distributed-Systems</title>
+      <link>https://loopandretry.github.io/tags/distributed-systems/</link>
+      <pubDate>Fri, 25 Sep 2026 16:00:00 +0000</pubDate>
+      <guid>https://loopandretry.github.io/tags/distributed-systems/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Memory</title>
+      <link>https://loopandretry.github.io/tags/memory/</link>
+      <pubDate>Fri, 25 Sep 2026 16:00:00 +0000</pubDate>
+      <guid>https://loopandretry.github.io/tags/memory/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Compaction</title>
+      <link>https://loopandretry.github.io/tags/compaction/</link>
+      <pubDate>Fri, 18 Sep 2026 16:00:00 +0000</pubDate>
+      <guid>https://loopandretry.github.io/tags/compaction/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Context-Engineering</title>
+      <link>https://loopandretry.github.io/tags/context-engineering/</link>
+      <pubDate>Fri, 18 Sep 2026 16:00:00 +0000</pubDate>
+      <guid>https://loopandretry.github.io/tags/context-engineering/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Context-Window</title>
+      <link>https://loopandretry.github.io/tags/context-window/</link>
+      <pubDate>Fri, 18 Sep 2026 16:00:00 +0000</pubDate>
+      <guid>https://loopandretry.github.io/tags/context-window/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mcp</title>
+      <link>https://loopandretry.github.io/tags/mcp/</link>
+      <pubDate>Fri, 18 Sep 2026 16:00:00 +0000</pubDate>
+      <guid>https://loopandretry.github.io/tags/mcp/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Agents</title>
+      <link>https://loopandretry.github.io/tags/agents/</link>
+      <pubDate>Fri, 11 Sep 2026 16:00:00 +0000</pubDate>
+      <guid>https://loopandretry.github.io/tags/agents/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Prompt-Injection</title>
+      <link>https://loopandretry.github.io/tags/prompt-injection/</link>
+      <pubDate>Fri, 11 Sep 2026 16:00:00 +0000</pubDate>
+      <guid>https://loopandretry.github.io/tags/prompt-injection/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Security</title>
+      <link>https://loopandretry.github.io/tags/security/</link>
+      <pubDate>Fri, 11 Sep 2026 16:00:00 +0000</pubDate>
+      <guid>https://loopandretry.github.io/tags/security/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Trust-Boundary</title>
+      <link>https://loopandretry.github.io/tags/trust-boundary/</link>
+      <pubDate>Fri, 11 Sep 2026 16:00:00 +0000</pubDate>
+      <guid>https://loopandretry.github.io/tags/trust-boundary/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Claude-Code</title>
+      <link>https://loopandretry.github.io/tags/claude-code/</link>
+      <pubDate>Sun, 30 Aug 2026 02:27:14 +0000</pubDate>
+      <guid>https://loopandretry.github.io/tags/claude-code/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Model-Context-Protocol</title>
+      <link>https://loopandretry.github.io/tags/model-context-protocol/</link>
+      <pubDate>Sun, 30 Aug 2026 02:27:14 +0000</pubDate>
+      <guid>https://loopandretry.github.io/tags/model-context-protocol/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tool-Design</title>
+      <link>https://loopandretry.github.io/tags/tool-design/</link>
+      <pubDate>Sun, 30 Aug 2026 02:27:14 +0000</pubDate>
+      <guid>https://loopandretry.github.io/tags/tool-design/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Apis</title>
+      <link>https://loopandretry.github.io/tags/apis/</link>
+      <pubDate>Fri, 28 Aug 2026 12:00:00 -0400</pubDate>
+      <guid>https://loopandretry.github.io/tags/apis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Idempotency</title>
+      <link>https://loopandretry.github.io/tags/idempotency/</link>
+      <pubDate>Fri, 28 Aug 2026 12:00:00 -0400</pubDate>
+      <guid>https://loopandretry.github.io/tags/idempotency/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

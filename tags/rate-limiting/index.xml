@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Rate-Limiting on Loop &amp; Retry</title>
+    <link>https://loopandretry.github.io/tags/rate-limiting/</link>
+    <description>Recent content in Rate-Limiting on Loop &amp; Retry</description>
+    <image>
+      <title>Loop &amp; Retry</title>
+      <url>https://loopandretry.github.io/images/og-default.png</url>
+      <link>https://loopandretry.github.io/images/og-default.png</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 28 Jul 2026 09:00:00 -0400</lastBuildDate>
+    <atom:link href="https://loopandretry.github.io/tags/rate-limiting/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>429 is not a timeout: why rate limits need their own retry budget</title>
+      <link>https://loopandretry.github.io/posts/rate-limits-are-not-failures/</link>
+      <pubDate>Tue, 28 Jul 2026 09:00:00 -0400</pubDate>
+      <guid>https://loopandretry.github.io/posts/rate-limits-are-not-failures/</guid>
+      <description>A 429 and a 500 both land in the same except block, so most retry budgets treat them the same: one bucket, one backoff curve, one circuit breaker. That conflation is wrong in both directions — it makes you wait too little for the failure that isn&amp;rsquo;t yours, and panic too much over the one that is. Two error classes, two buckets, and the Retry-After header everyone reads and no one obeys.</description>
+    </item>
+  </channel>
+</rss>

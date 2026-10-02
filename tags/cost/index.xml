@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Cost on Loop &amp; Retry</title>
+    <link>https://loopandretry.github.io/tags/cost/</link>
+    <description>Recent content in Cost on Loop &amp; Retry</description>
+    <image>
+      <title>Loop &amp; Retry</title>
+      <url>https://loopandretry.github.io/images/og-default.png</url>
+      <link>https://loopandretry.github.io/images/og-default.png</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 21 Aug 2026 09:00:00 -0700</lastBuildDate>
+    <atom:link href="https://loopandretry.github.io/tags/cost/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The cost of undoing: partial failures and the cleanup bill</title>
+      <link>https://loopandretry.github.io/posts/the-cost-of-undoing-partial-writes/</link>
+      <pubDate>Fri, 21 Aug 2026 09:00:00 -0700</pubDate>
+      <guid>https://loopandretry.github.io/posts/the-cost-of-undoing-partial-writes/</guid>
+      <description>An agent writes to three systems, then fails on the fourth. The first three writes are now orphaned in a partially-succeeded state. Rolling them back costs more than the original operation — not in tokens, but in human time and coordination overhead. This is the cleanup bill: the hidden cost of partial failures that retry logic doesn&amp;rsquo;t touch.</description>
+    </item>
+    <item>
+      <title>What actually drives your Claude bill: cache misses, quadratic context, and prepaid retries</title>
+      <link>https://loopandretry.github.io/posts/what-drives-your-claude-bill/</link>
+      <pubDate>Thu, 20 Aug 2026 22:00:00 -0400</pubDate>
+      <guid>https://loopandretry.github.io/posts/what-drives-your-claude-bill/</guid>
+      <description>The per-token rate on Anthropic&amp;rsquo;s pricing page is real, but it&amp;rsquo;s the least useful number for predicting your actual invoice. Three multipliers move the bill far more than model choice does — a cache that silently misses, a transcript that grows quadratically with run length, and a best-of-N pattern that prepays for latency you may not need. Here&amp;rsquo;s the arithmetic on all three, combined, with real numbers.</description>
+    </item>
+    <item>
+      <title>The cost of finding a failure after the customer finds it</title>
+      <link>https://loopandretry.github.io/posts/cost-of-late-failure-detection/</link>
+      <pubDate>Mon, 17 Aug 2026 21:00:00 -0700</pubDate>
+      <guid>https://loopandretry.github.io/posts/cost-of-late-failure-detection/</guid>
+      <description>An agent&amp;rsquo;s failure isn&amp;rsquo;t expensive because it failed—it&amp;rsquo;s expensive because you found out about it from a customer complaint instead of an alert. Detection latency multiplies the cleanup cost by an order of magnitude. This post explores the arithmetic of failure-finding, why automated detection is worth the infrastructure cost, and how to choose detection strategies.</description>
+    </item>
+    <item>
+      <title>The agent that trusted a bad API: silent failures and validation debt</title>
+      <link>https://loopandretry.github.io/posts/tool-output-validation-cost/</link>
+      <pubDate>Thu, 13 Aug 2026 20:56:00 +0000</pubDate>
+      <guid>https://loopandretry.github.io/posts/tool-output-validation-cost/</guid>
+      <description>An agent called an API, got a syntactically valid response, trusted it, and built three wrong decisions on top of it. No error was thrown. Every step succeeded locally. The cascade cost was 15× the original bad call — and all of it was preventable by a two-line validation check. This is validation debt: paying the cost of skipped checks in compounding failure downstream.</description>
+    </item>
+    <item>
+      <title>Best-of-N is prepaid retries: the cost math of racing parallel attempts</title>
+      <link>https://loopandretry.github.io/posts/best-of-n-is-prepaid-retries/</link>
+      <pubDate>Sun, 09 Aug 2026 09:00:00 -0400</pubDate>
+      <guid>https://loopandretry.github.io/posts/best-of-n-is-prepaid-retries/</guid>
+      <description>Launching N attempts at once and keeping the first success feels like a free win over sequential retries — you trade money for tail latency, and money is supposedly the thing you have more of. It isn&amp;rsquo;t free, and it isn&amp;rsquo;t even always a trade: for the correlated failures that dominate real production incidents, best-of-N pays for N guaranteed-identical failures up front instead of stopping at one.</description>
+    </item>
+    <item>
+      <title>The transcript is a log, not an index: retrieval for long-running agents</title>
+      <link>https://loopandretry.github.io/posts/transcript-is-a-log-not-an-index/</link>
+      <pubDate>Wed, 05 Aug 2026 09:00:00 -0400</pubDate>
+      <guid>https://loopandretry.github.io/posts/transcript-is-a-log-not-an-index/</guid>
+      <description>Eviction and summarization keep a long-running agent&amp;rsquo;s window small, but the summaries themselves still accumulate in the linear transcript — and on a run long enough, that accumulation becomes the new quadratic. Past a few hundred steps, the fix isn&amp;rsquo;t a better compaction policy inside the window. It&amp;rsquo;s moving history out of the window entirely and querying it like a database instead of replaying it like a log.</description>
+    </item>
+    <item>
+      <title>The caller gave up ten minutes ago: orphaned retries in agent fleets</title>
+      <link>https://loopandretry.github.io/posts/orphaned-retries-cancellation/</link>
+      <pubDate>Wed, 29 Jul 2026 09:00:00 -0400</pubDate>
+      <guid>https://loopandretry.github.io/posts/orphaned-retries-cancellation/</guid>
+      <description>A user closes the tab. An upstream request times out. A parent agent gets cancelled by its own budget. None of that reliably reaches the retry loop three calls deep, so the retry keeps going — burning tokens and rate-limit headroom for a result nobody will ever read. Cancellation is the one signal every fleet retry pattern assumes exists and almost none actually propagate.</description>
+    </item>
+    <item>
+      <title>429 is not a timeout: why rate limits need their own retry budget</title>
+      <link>https://loopandretry.github.io/posts/rate-limits-are-not-failures/</link>
+      <pubDate>Tue, 28 Jul 2026 09:00:00 -0400</pubDate>
+      <guid>https://loopandretry.github.io/posts/rate-limits-are-not-failures/</guid>
+      <description>A 429 and a 500 both land in the same except block, so most retry budgets treat them the same: one bucket, one backoff curve, one circuit breaker. That conflation is wrong in both directions — it makes you wait too little for the failure that isn&amp;rsquo;t yours, and panic too much over the one that is. Two error classes, two buckets, and the Retry-After header everyone reads and no one obeys.</description>
+    </item>
+    <item>
+      <title>Measuring retry success: the metric that tells you if retries work</title>
+      <link>https://loopandretry.github.io/posts/retry-observability-measuring-success/</link>
+      <pubDate>Fri, 24 Jul 2026 18:00:00 -0700</pubDate>
+      <guid>https://loopandretry.github.io/posts/retry-observability-measuring-success/</guid>
+      <description>You can&amp;rsquo;t tune a retry strategy you can&amp;rsquo;t see. This is how to instrument retries so you know whether each one succeeds (saving you money) or fails permanently (burning it). Three structured metrics turn a blind spot into actionable signal.</description>
+    </item>
+    <item>
+      <title>Prompt caching: what actually gets cached, and when it silently misses</title>
+      <link>https://loopandretry.github.io/posts/prompt-caching-silent-misses/</link>
+      <pubDate>Mon, 20 Jul 2026 21:00:00 -0400</pubDate>
+      <guid>https://loopandretry.github.io/posts/prompt-caching-silent-misses/</guid>
+      <description>Prompt caching can cut your input-token bill by 90% on the reused part of a request — or do nothing at all, with no error to tell you which. It&amp;rsquo;s an exact-prefix match with a short TTL, and small, common mistakes in how agents build requests break it silently. Here&amp;rsquo;s what actually gets cached, the five ways real agents lose the discount without noticing, and how to check whether yours is.</description>
+    </item>
+    <item>
+      <title>Context window sizing for fine-tuning: how long should your training examples be?</title>
+      <link>https://loopandretry.github.io/posts/context-sizing-for-fine-tuning/</link>
+      <pubDate>Sat, 18 Jul 2026 09:00:00 -0400</pubDate>
+      <guid>https://loopandretry.github.io/posts/context-sizing-for-fine-tuning/</guid>
+      <description>Fine-tuning example length is a design decision, not a byproduct of your data. Pad too short and you teach a distribution you&amp;rsquo;ll never see at inference; let examples sprawl and you pay quadratic training cost to memorize context you should be retrieving. How to size training sequences to the context you&amp;rsquo;ll actually serve.</description>
+    </item>
+    <item>
+      <title>Your timeout is a bet: pricing the tradeoff before you pick a number</title>
+      <link>https://loopandretry.github.io/posts/timeout-is-a-bet/</link>
+      <pubDate>Sat, 18 Jul 2026 09:00:00 -0400</pubDate>
+      <guid>https://loopandretry.github.io/posts/timeout-is-a-bet/</guid>
+      <description>Every per-step timeout is a number someone typed in without a model behind it — too short and you kill real work in flight, too long and you pay to sit idle waiting on a hang. Both mistakes are failure modes with a price tag. A small cost model finds the number that actually minimizes total cost instead of the one that felt safe.</description>
+    </item>
+    <item>
+      <title>Retry budgets by language: Python, Go, and JavaScript</title>
+      <link>https://loopandretry.github.io/posts/retry-budgets-by-language/</link>
+      <pubDate>Wed, 15 Jul 2026 09:00:00 -0400</pubDate>
+      <guid>https://loopandretry.github.io/posts/retry-budgets-by-language/</guid>
+      <description>A retry budget is a language-agnostic idea, but the place you enforce it is not. Python&amp;rsquo;s tenacity decorators, Go&amp;rsquo;s context-plus-backoff, and JavaScript&amp;rsquo;s promise chains each make a different mistake easy and a different guarantee hard. Where the shared budget lives, and the per-language trap that leaks it.</description>
+    </item>
+    <item>
+      <title>Debugging a failed agent run costs more than the run itself</title>
+      <link>https://loopandretry.github.io/posts/debugging-a-failed-run-costs-more/</link>
+      <pubDate>Tue, 14 Jul 2026 13:00:00 -0400</pubDate>
+      <guid>https://loopandretry.github.io/posts/debugging-a-failed-run-costs-more/</guid>
+      <description>The cheap part of a failed agent run is running it again. The expensive part is that you can&amp;rsquo;t — the failure was non-deterministic, so the run that broke is gone, and you pay to summon it back. A cost model shows why reproduction, not repair, dominates your debugging bill, and why always-on tracing is almost always cheaper than the alternative it replaces.</description>
+    </item>
+    <item>
+      <title>Your token bill is the cheap part: dimensioning the real cost of an agent</title>
+      <link>https://loopandretry.github.io/posts/cost-beyond-tokens/</link>
+      <pubDate>Tue, 14 Jul 2026 05:00:00 -0400</pubDate>
+      <guid>https://loopandretry.github.io/posts/cost-beyond-tokens/</guid>
+      <description>Everyone budgets the token bill because the provider hands you an invoice for it. But an agent in production spends across five other axes that never show up on that invoice — wall-clock latency, orchestration, tool-call fees, human review, and idle polling — and for a lot of workloads the tokens are the smallest line. A model that sums all six so you can see which one you&amp;rsquo;re actually paying.</description>
+    </item>
+    <item>
+      <title>Cheap first, smart later: model routing that cuts cost without cutting quality</title>
+      <link>https://loopandretry.github.io/posts/cheap-first-smart-later/</link>
+      <pubDate>Mon, 13 Jul 2026 20:30:00 -0400</pubDate>
+      <guid>https://loopandretry.github.io/posts/cheap-first-smart-later/</guid>
+      <description>Most requests to your agent are easy, and you&amp;rsquo;re paying frontier-model prices for all of them anyway. A routing cascade — try the cheap model, escalate on a measurable confidence signal — cuts spend without touching output quality, if you get the escalation trigger right. Here&amp;rsquo;s the pattern, where it breaks, and the arithmetic on when it&amp;rsquo;s worth building.</description>
+    </item>
+    <item>
+      <title>Distributed retry patterns: bounding blast radius across a fleet</title>
+      <link>https://loopandretry.github.io/posts/fleet-retry-patterns/</link>
+      <pubDate>Mon, 13 Jul 2026 18:15:00 -0400</pubDate>
+      <guid>https://loopandretry.github.io/posts/fleet-retry-patterns/</guid>
+      <description>A per-step retry cap bounds a step. It never bounds a run, and it never bounds a fleet — twelve workers each retrying &amp;lsquo;reasonably&amp;rsquo; is how you turn one bad deploy into a bill. The four patterns that actually put a ceiling on what a fleet of agents can spend recovering from a failure: shared retry budgets, circuit breakers, decorrelated backoff, and poison quarantine.</description>
+    </item>
+    <item>
+      <title>Why a long agent run costs O(N²) tokens — and how to flatten it</title>
+      <link>https://loopandretry.github.io/posts/long-agent-runs-are-quadratic/</link>
+      <pubDate>Mon, 13 Jul 2026 18:05:00 -0400</pubDate>
+      <guid>https://loopandretry.github.io/posts/long-agent-runs-are-quadratic/</guid>
+      <description>A naive agent&amp;rsquo;s token bill doesn&amp;rsquo;t grow with the number of steps — it grows with the square of them, because every step re-reads the whole transcript that every previous step appended to. A small cost model shows the curve, and four structural moves turn the quadratic back into something close to linear without dropping information the agent actually needs.</description>
+    </item>
+    <item>
+      <title>Postmortem: the agent that spent $200 retrying a 400</title>
+      <link>https://loopandretry.github.io/posts/postmortem-200-dollars-retrying-a-400/</link>
+      <pubDate>Sun, 12 Jul 2026 09:00:00 -0400</pubDate>
+      <guid>https://loopandretry.github.io/posts/postmortem-200-dollars-retrying-a-400/</guid>
+      <description>An agent burned ~$200 overnight retrying an HTTP 400 — a request that was defined to fail. No component was buggy; each layer retried &amp;ldquo;reasonably.&amp;rdquo; The teardown: why retryability is a property of the error and not a default, how three nested retry caps multiply into 75 doomed attempts per item, and why per-step caps never bound a bill. With the two-line fix and a circuit breaker.</description>
+    </item>
+    <item>
+      <title>When not to build an agent</title>
+      <link>https://loopandretry.github.io/posts/when-not-to-build-an-agent/</link>
+      <pubDate>Wed, 08 Jul 2026 02:00:00 -0400</pubDate>
+      <guid>https://loopandretry.github.io/posts/when-not-to-build-an-agent/</guid>
+      <description>An agent is an LLM that controls its own control flow — and that autonomy has a price you pay on every run: quadratic token cost, serial latency, and a failure surface you can&amp;rsquo;t unit-test. Most tasks people reach for an agent on are a fixed pipeline wearing a costume. Here&amp;rsquo;s the decision checklist I use, the arithmetic on what the agent tax actually costs, and the same task built both ways so you can see the difference.</description>
+    </item>
+  </channel>
+</rss>

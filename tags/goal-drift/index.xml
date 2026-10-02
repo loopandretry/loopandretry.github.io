@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Goal-Drift on Loop &amp; Retry</title>
+    <link>https://loopandretry.github.io/tags/goal-drift/</link>
+    <description>Recent content in Goal-Drift on Loop &amp; Retry</description>
+    <image>
+      <title>Loop &amp; Retry</title>
+      <url>https://loopandretry.github.io/images/og-default.png</url>
+      <link>https://loopandretry.github.io/images/og-default.png</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 02 Oct 2026 16:00:00 +0000</lastBuildDate>
+    <atom:link href="https://loopandretry.github.io/tags/goal-drift/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Goal drift: how a multi-agent crew ends up solving a different problem</title>
+      <link>https://loopandretry.github.io/posts/multi-agent-goal-drift/</link>
+      <pubDate>Fri, 02 Oct 2026 16:00:00 +0000</pubDate>
+      <guid>https://loopandretry.github.io/posts/multi-agent-goal-drift/</guid>
+      <description>Loop drift is one agent staying busy without getting closer to done. Hand the same failure to a crew and every agent stays busy, produces defensible work, and the team&amp;rsquo;s collective objective still ends up somewhere your original request never sent it — a genuine multi-agent goal drift failure mode, not a mistake in any single agent&amp;rsquo;s reasoning. A concrete feature-build failure, the four things that make a goal decay one handoff at a time, and what to measure so a &amp;lsquo;done&amp;rsquo; check compares against the original ask instead of the nearest upstream spec.</description>
+    </item>
+  </channel>
+</rss>

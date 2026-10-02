@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Operations on Loop &amp; Retry</title>
+    <link>https://loopandretry.github.io/tags/operations/</link>
+    <description>Recent content in Operations on Loop &amp; Retry</description>
+    <image>
+      <title>Loop &amp; Retry</title>
+      <url>https://loopandretry.github.io/images/og-default.png</url>
+      <link>https://loopandretry.github.io/images/og-default.png</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 18 Jul 2026 09:00:00 -0400</lastBuildDate>
+    <atom:link href="https://loopandretry.github.io/tags/operations/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Your timeout is a bet: pricing the tradeoff before you pick a number</title>
+      <link>https://loopandretry.github.io/posts/timeout-is-a-bet/</link>
+      <pubDate>Sat, 18 Jul 2026 09:00:00 -0400</pubDate>
+      <guid>https://loopandretry.github.io/posts/timeout-is-a-bet/</guid>
+      <description>Every per-step timeout is a number someone typed in without a model behind it — too short and you kill real work in flight, too long and you pay to sit idle waiting on a hang. Both mistakes are failure modes with a price tag. A small cost model finds the number that actually minimizes total cost instead of the one that felt safe.</description>
+    </item>
+    <item>
+      <title>Debugging a failed agent run costs more than the run itself</title>
+      <link>https://loopandretry.github.io/posts/debugging-a-failed-run-costs-more/</link>
+      <pubDate>Tue, 14 Jul 2026 13:00:00 -0400</pubDate>
+      <guid>https://loopandretry.github.io/posts/debugging-a-failed-run-costs-more/</guid>
+      <description>The cheap part of a failed agent run is running it again. The expensive part is that you can&amp;rsquo;t — the failure was non-deterministic, so the run that broke is gone, and you pay to summon it back. A cost model shows why reproduction, not repair, dominates your debugging bill, and why always-on tracing is almost always cheaper than the alternative it replaces.</description>
+    </item>
+    <item>
+      <title>Your token bill is the cheap part: dimensioning the real cost of an agent</title>
+      <link>https://loopandretry.github.io/posts/cost-beyond-tokens/</link>
+      <pubDate>Tue, 14 Jul 2026 05:00:00 -0400</pubDate>
+      <guid>https://loopandretry.github.io/posts/cost-beyond-tokens/</guid>
+      <description>Everyone budgets the token bill because the provider hands you an invoice for it. But an agent in production spends across five other axes that never show up on that invoice — wall-clock latency, orchestration, tool-call fees, human review, and idle polling — and for a lot of workloads the tokens are the smallest line. A model that sums all six so you can see which one you&amp;rsquo;re actually paying.</description>
+    </item>
+  </channel>
+</rss>
