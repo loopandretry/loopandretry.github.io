@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Multi-Agent on Loop &amp; Retry</title>
+    <link>https://loopandretry.github.io/tags/multi-agent/</link>
+    <description>Recent content in Multi-Agent on Loop &amp; Retry</description>
+    <image>
+      <title>Loop &amp; Retry</title>
+      <url>https://loopandretry.github.io/images/og-default.png</url>
+      <link>https://loopandretry.github.io/images/og-default.png</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 09 Oct 2026 16:00:00 +0000</lastBuildDate>
+    <atom:link href="https://loopandretry.github.io/tags/multi-agent/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Context drift: when a multi-agent crew&#39;s shared beliefs about the goal go stale</title>
+      <link>https://loopandretry.github.io/posts/multi-agent-context-drift/?ref=rss</link>
+      <pubDate>Fri, 09 Oct 2026 16:00:00 +0000</pubDate>
+      <guid>https://loopandretry.github.io/posts/multi-agent-context-drift/</guid>
+      <description>A cache that&amp;rsquo;s never invalidated doesn&amp;rsquo;t know it&amp;rsquo;s stopped being correct — it just keeps serving the value it read at write time. Give a multi-agent crew a shared objective instead of a shared cache and you get the identical failure with none of the tooling that usually catches it: every agent read the goal once, at spawn, and nothing tells it when that copy goes stale. This is multi-agent context drift — distinct from goal drift (the target itself moving) and split-brain (the crew&amp;rsquo;s facts about state disagreeing) — a concrete policy-escalation failure, the mechanism, and what to instrument before a customer hears a promise nobody&amp;rsquo;s operating on anymore.</description>
+    </item>
+    <item>
+      <title>Goal drift: how a multi-agent crew ends up solving a different problem</title>
+      <link>https://loopandretry.github.io/posts/multi-agent-goal-drift/?ref=rss</link>
+      <pubDate>Fri, 02 Oct 2026 16:00:00 +0000</pubDate>
+      <guid>https://loopandretry.github.io/posts/multi-agent-goal-drift/</guid>
+      <description>Loop drift is one agent staying busy without getting closer to done. Hand the same failure to a crew and every agent stays busy, produces defensible work, and the team&amp;rsquo;s collective objective still ends up somewhere your original request never sent it — a genuine multi-agent goal drift failure mode, not a mistake in any single agent&amp;rsquo;s reasoning. A concrete feature-build failure, the four things that make a goal decay one handoff at a time, and what to measure so a &amp;lsquo;done&amp;rsquo; check compares against the original ask instead of the nearest upstream spec.</description>
+    </item>
+    <item>
+      <title>Split-brain: when multi-agent memory consensus quietly fails</title>
+      <link>https://loopandretry.github.io/posts/multi-agent-memory-split-brain/?ref=rss</link>
+      <pubDate>Fri, 25 Sep 2026 16:00:00 +0000</pubDate>
+      <guid>https://loopandretry.github.io/posts/multi-agent-memory-split-brain/</guid>
+      <description>In distributed systems, split-brain is what happens when a partition convinces two halves of a cluster that each is the sole leader, and both start accepting writes. Multi-agent systems build the identical topology every time more than one agent reads and writes a &amp;lsquo;shared&amp;rsquo; memory store with no lock, no leader, and no version check — and the failure that follows is a genuine multi-agent memory consensus problem, not a bug in any one agent. The mechanism, a concrete incident-response failure, and what to instrument before it costs you a duplicate action.</description>
+    </item>
+    <item>
+      <title>Failure modes in multi-agent teams: how a crew of agents breaks differently</title>
+      <link>https://loopandretry.github.io/posts/multi-agent-failure-modes/?ref=rss</link>
+      <pubDate>Tue, 21 Jul 2026 09:00:00 -0400</pubDate>
+      <guid>https://loopandretry.github.io/posts/multi-agent-failure-modes/</guid>
+      <description>A single agent fails by getting the task wrong. A team of agents fails in ways no single agent can: correlated collapse, diffused responsibility, context fragmentation, and consensus that converges on nothing. The four failure modes that only exist once you have more than one agent — and why adding agents can lower reliability.</description>
+    </item>
+  </channel>
+</rss>
