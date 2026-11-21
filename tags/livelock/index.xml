@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Livelock on Loop &amp; Retry</title>
+    <link>https://loopandretry.github.io/tags/livelock/</link>
+    <description>Recent content in Livelock on Loop &amp; Retry</description>
+    <image>
+      <title>Loop &amp; Retry</title>
+      <url>https://loopandretry.github.io/images/og-default.png</url>
+      <link>https://loopandretry.github.io/images/og-default.png</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 06 Nov 2026 16:00:00 +0000</lastBuildDate>
+    <atom:link href="https://loopandretry.github.io/tags/livelock/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Multi-agent livelock: when a critic and an executor politely hand the task back and forth forever</title>
+      <link>https://loopandretry.github.io/posts/multi-agent-livelock/?ref=rss</link>
+      <pubDate>Fri, 06 Nov 2026 16:00:00 +0000</pubDate>
+      <guid>https://loopandretry.github.io/posts/multi-agent-livelock/</guid>
+      <description>Livelock is the multi-agent failure that looks like diligence. A critic flags something, an executor fixes it, the fix trips a different check, and the crew spends real money making no net progress while every individual step looks correct. Why a per-agent loop cap cannot see it, the three shapes it takes (oscillation, escalation spiral, and the polite deferral loop), how to detect it from a hash of shared state instead of from the transcript, and a crew-level budget that turns an endless loop into a finite, reportable outcome.</description>
+    </item>
+  </channel>
+</rss>
